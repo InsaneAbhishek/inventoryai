@@ -1,0 +1,1775 @@
+2026-02-14 21:31:49,927 - __main__ - INFO - Starting Inventory Demand Forecasting System
+2026-02-14 21:32:09,120 - __main__ - INFO - Starting Inventory Demand Forecasting System
+2026-02-14 21:32:27,151 - __main__ - INFO - Starting Inventory Demand Forecasting System
+2026-02-14 21:32:27,167 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-14 21:32:27,167 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 21:32:27,167 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 21:32:28,184 - __main__ - INFO - Starting Inventory Demand Forecasting System
+2026-02-14 21:32:28,189 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 21:32:28,190 - werkzeug - INFO -  * Debugger PIN: 920-118-941
+2026-02-14 21:32:59,541 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 21:32:59] "GET /?password=0931961b-b0e6-4853-bd01-546cfdd44dd6 HTTP/1.1" 200 -
+2026-02-14 21:33:00,532 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:33:00] "GET /?_gl=1*9rsmut*_gcl_au*MTY2NjAyNzc0OS4xNzcxMTAyODA0LjEzNTI3NTczMzEuMTc3MTEwMjgzOS4xNzcxMTAyOTA1*_ga*MjEzNjQ0NDkxNC4xNzcxMTAyNzYy*_ga_8NW18Q4WF2*czE3NzExMDI3NjQkbzEkZzEkdDE3NzExMDQ3NzMkajUyJGwwJGg1ODkwODUwNDg.&password=0931961b-b0e6-4853-bd01-546cfdd44dd6 HTTP/1.1" 200 -
+2026-02-14 21:33:02,211 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:33:02] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-14 21:33:02,597 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:33:02] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-14 21:33:05,032 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:33:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-14 21:33:33,649 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 21:33:33] "GET /api/health HTTP/1.1" 200 -
+2026-02-14 21:33:44,621 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:33:44] "GET /?_gl=1*9rsmut*_gcl_au*MTY2NjAyNzc0OS4xNzcxMTAyODA0LjEzNTI3NTczMzEuMTc3MTEwMjgzOS4xNzcxMTAyOTA1*_ga*MjEzNjQ0NDkxNC4xNzcxMTAyNzYy*_ga_8NW18Q4WF2*czE3NzExMDI3NjQkbzEkZzEkdDE3NzExMDQ3NzMkajUyJGwwJGg1ODkwODUwNDg.&password=0931961b-b0e6-4853-bd01-546cfdd44dd6 HTTP/1.1" 200 -
+2026-02-14 21:33:46,778 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:33:46] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-14 21:33:46,804 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:33:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-14 21:48:36,496 - werkzeug - INFO -  * Detected change in '/workspace/backend/app.py', reloading
+2026-02-14 21:48:36,650 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 21:49:28,843 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-14 21:49:28,859 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-14 21:49:28,859 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-14 21:49:28,859 - werkzeug - INFO -  * Restarting with stat
+2026-02-14 21:49:32,783 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-14 21:49:32,790 - werkzeug - WARNING -  * Debugger is active!
+2026-02-14 21:49:32,790 - werkzeug - INFO -  * Debugger PIN: 144-413-875
+2026-02-14 21:49:38,220 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 21:49:38] "GET /api/health HTTP/1.1" 200 -
+2026-02-14 21:49:54,914 - werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 21:49:54] "GET /?password=0931961b-b0e6-4853-bd01-546cfdd44dd6 HTTP/1.1" 200 -
+2026-02-14 21:49:55,847 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:49:55] "GET /?_gl=1*xsf3mj*_gcl_au*MTY2NjAyNzc0OS4xNzcxMTAyODA0LjEzNTI3NTczMzEuMTc3MTEwMjgzOS4xNzcxMTAyOTA1*_ga*MjEzNjQ0NDkxNC4xNzcxMTAyNzYy*_ga_8NW18Q4WF2*czE3NzExMDI3NjQkbzEkZzEkdDE3NzExMDQ3NzMkajUyJGwwJGg1ODkwODUwNDg.&password=0931961b-b0e6-4853-bd01-546cfdd44dd6 HTTP/1.1" 200 -
+2026-02-14 21:49:57,842 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:49:57] "GET /static/css/landing.css HTTP/1.1" 200 -
+2026-02-14 21:50:12,853 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:50:12] "GET /login HTTP/1.1" 200 -
+2026-02-14 21:50:14,808 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:50:14] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-02-14 21:50:29,539 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:50:29] "GET /login HTTP/1.1" 200 -
+2026-02-14 21:50:31,487 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:50:31] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-02-14 21:50:34,821 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:50:34] "GET /register HTTP/1.1" 200 -
+2026-02-14 21:50:36,675 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:50:36] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-02-14 21:51:03,757 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-14 21:51:04,247 - database - INFO - Database indexes created successfully
+2026-02-14 21:51:05,201 - database - INFO - User created successfully: abhishek10013
+2026-02-14 21:51:05,201 - auth - INFO - New user registered: abhishek10013
+2026-02-14 21:51:05,202 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:51:05] "POST /register HTTP/1.1" 200 -
+2026-02-14 21:51:08,628 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:51:08] "GET /login HTTP/1.1" 200 -
+2026-02-14 21:51:10,313 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:51:10] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-02-14 21:51:20,923 - auth - ERROR - Login error: property 'is_active' of 'User' object has no setter
+2026-02-14 21:51:20,923 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:51:20] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2026-02-14 21:51:27,601 - auth - ERROR - Login error: property 'is_active' of 'User' object has no setter
+2026-02-14 21:51:27,601 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:51:27] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2026-02-14 21:51:34,054 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:51:34] "[33mGET /forgot-password HTTP/1.1[0m" 404 -
+2026-02-14 21:51:38,185 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:51:38] "GET /login HTTP/1.1" 200 -
+2026-02-14 21:51:40,149 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:51:40] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-02-14 21:53:05,317 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:53:05] "GET /?hideControls=true&password=0931961b-b0e6-4853-bd01-546cfdd44dd6 HTTP/1.1" 200 -
+2026-02-14 21:53:07,206 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:53:07] "GET /static/css/landing.css HTTP/1.1" 200 -
+2026-02-14 21:53:15,074 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:53:15] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-14 21:53:20,301 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:53:20] "[33mGET /forgot-password HTTP/1.1[0m" 404 -
+2026-02-14 21:53:23,138 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:53:23] "GET /login HTTP/1.1" 200 -
+2026-02-14 21:53:24,999 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:53:24] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-02-14 21:54:03,321 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:54:03] "GET /register HTTP/1.1" 200 -
+2026-02-14 21:54:05,088 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:54:05] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-02-14 21:54:39,521 - database - INFO - User created successfully: abhishek10012
+2026-02-14 21:54:39,521 - auth - INFO - New user registered: abhishek10012
+2026-02-14 21:54:39,522 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:54:39] "POST /register HTTP/1.1" 200 -
+2026-02-14 21:54:42,629 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:54:42] "GET /login HTTP/1.1" 200 -
+2026-02-14 21:54:44,328 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:54:44] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-02-14 21:54:56,097 - auth - ERROR - Login error: property 'is_active' of 'User' object has no setter
+2026-02-14 21:54:56,098 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:54:56] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2026-02-14 21:55:01,471 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:55:01] "GET /?password=0931961b-b0e6-4853-bd01-546cfdd44dd6 HTTP/1.1" 200 -
+2026-02-14 21:55:03,332 - werkzeug - INFO - 172.16.0.1 - - [14/Feb/2026 21:55:03] "GET /static/css/landing.css HTTP/1.1" 200 -
+2026-02-15 08:48:51,787 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:48:51,805 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 08:48:51,805 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 08:48:51,805 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 08:48:55,910 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:48:55,916 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 08:48:55,917 - werkzeug - INFO -  * Debugger PIN: 120-531-848
+2026-02-15 08:49:01,197 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:49:01] "GET /api/health HTTP/1.1" 200 -
+2026-02-15 08:49:16,998 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-15 08:49:17,471 - database - INFO - Database indexes created successfully
+2026-02-15 08:49:18,438 - database - INFO - User created successfully: testuser123
+2026-02-15 08:49:18,438 - auth - INFO - New user registered: testuser123
+2026-02-15 08:49:18,438 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:49:18] "POST /register HTTP/1.1" 200 -
+2026-02-15 08:49:18,931 - auth - ERROR - Login error: property 'is_active' of 'User' object has no setter
+2026-02-15 08:49:18,932 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:49:18] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2026-02-15 08:49:36,025 - werkzeug - INFO -  * Detected change in '/workspace/backend/models/user.py', reloading
+2026-02-15 08:49:36,691 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 08:49:40,629 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:49:40,635 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 08:49:40,635 - werkzeug - INFO -  * Debugger PIN: 120-531-848
+2026-02-15 08:49:51,486 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:49:51,501 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 08:49:51,501 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 08:49:51,501 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 08:49:55,293 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:49:55,299 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 08:49:55,299 - werkzeug - INFO -  * Debugger PIN: 100-634-684
+2026-02-15 08:50:04,173 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-15 08:50:04,666 - database - INFO - Database indexes created successfully
+2026-02-15 08:50:04,901 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:50:04] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2026-02-15 08:50:15,106 - auth - INFO - User logged in: testuser123
+2026-02-15 08:50:15,107 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:50:15] "POST /login HTTP/1.1" 200 -
+2026-02-15 08:50:39,199 - database - INFO - User created successfully: user_qhuah4na
+2026-02-15 08:50:39,199 - auth - INFO - New user registered: user_qhuah4na
+2026-02-15 08:50:39,200 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:50:39] "POST /register HTTP/1.1" 200 -
+2026-02-15 08:50:39,932 - auth - INFO - User logged in: user_qhuah4na
+2026-02-15 08:50:39,932 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:50:39] "POST /login HTTP/1.1" 200 -
+2026-02-15 08:50:40,666 - auth - INFO - User logged in: user_qhuah4na
+2026-02-15 08:50:40,667 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:50:40] "POST /login HTTP/1.1" 200 -
+2026-02-15 08:50:40,897 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:50:40] "GET /api/user HTTP/1.1" 200 -
+2026-02-15 08:50:56,910 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:50:56] "GET /?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 08:50:57,875 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 08:50:57] "GET /?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 08:50:59,802 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 08:50:59] "GET /static/css/landing.css HTTP/1.1" 200 -
+2026-02-15 08:51:11,971 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 08:51:11] "GET /?_gl=1*leurfh*_gcl_au*MTY2NjAyNzc0OS4xNzcxMTAyODA0LjE2ODI3NTcxODMuMTc3MTE0NDUwOC4xNzcxMTQ0NzY4*_ga*MjEzNjQ0NDkxNC4xNzcxMTAyNzYy*_ga_8NW18Q4WF2*czE3NzExNDQ0MDMkbzIkZzEkdDE3NzExNDQ4MzEkajYwJGwwJGgzMzU5MzcwNjU.&password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 08:51:13,905 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 08:51:13] "GET /static/css/landing.css HTTP/1.1" 200 -
+2026-02-15 08:52:14,783 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 08:52:14] "GET /login HTTP/1.1" 200 -
+2026-02-15 08:52:16,662 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 08:52:16] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-02-15 08:52:27,259 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 08:52:27] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-15 08:52:36,594 - auth - INFO - User logged in: abhishek10012
+2026-02-15 08:52:36,595 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 08:52:36] "POST /login HTTP/1.1" 200 -
+2026-02-15 08:52:39,814 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 08:52:39] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 08:52:41,841 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 08:52:41] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-15 08:52:41,863 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 08:52:41] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-15 08:53:48,121 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:53:48] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-02-15 08:54:27,864 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:54:27,880 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 08:54:27,880 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 08:54:27,881 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 08:54:31,889 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:54:31,895 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 08:54:31,895 - werkzeug - INFO -  * Debugger PIN: 216-514-528
+2026-02-15 08:54:41,254 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-15 08:54:41,729 - database - INFO - Database indexes created successfully
+2026-02-15 08:54:42,459 - auth - INFO - User logged in: testuser123
+2026-02-15 08:54:42,460 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:54:42] "POST /login HTTP/1.1" 200 -
+2026-02-15 08:54:46,761 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:54:46] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 08:55:16,384 - auth - INFO - User logged in: testuser123
+2026-02-15 08:55:16,385 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:55:16] "POST /login HTTP/1.1" 200 -
+2026-02-15 08:55:16,388 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:55:16] "GET /api/health HTTP/1.1" 200 -
+2026-02-15 08:55:16,619 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:55:16] "GET /api/user HTTP/1.1" 200 -
+2026-02-15 08:55:16,850 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:55:16] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 08:55:17,081 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:55:17] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 08:55:17,312 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:55:17] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 08:55:55,656 - auth - INFO - User logged in: testuser123
+2026-02-15 08:55:55,656 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:55:55] "POST /login HTTP/1.1" 200 -
+2026-02-15 08:55:55,900 - modules.data_collection - INFO - Importing sales data from ../data/uploads/sample_sales_data.csv
+2026-02-15 08:55:55,905 - modules.data_collection - INFO - Successfully imported 90 records
+2026-02-15 08:55:56,163 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: raw
+2026-02-15 08:55:56,163 - __main__ - INFO - Data uploaded successfully by user 6991888e34b10b7e37645d1c: sample_sales_data.csv
+2026-02-15 08:55:56,165 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:55:56] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 08:55:56,396 - modules.data_collection - INFO - Fetching weather data for New York from 2024-01-01 to 2024-12-31
+2026-02-15 08:55:56,398 - modules.data_collection - INFO - Fetched 366 weather records
+2026-02-15 08:55:56,398 - modules.data_collection - INFO - Fetching holiday data for US from 2024-01-01 to 2024-12-31
+2026-02-15 08:55:56,400 - modules.data_collection - INFO - Fetched 13 holiday records
+2026-02-15 08:55:56,400 - __main__ - INFO - External data fetched for user 6991888e34b10b7e37645d1c
+2026-02-15 08:55:56,409 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:55:56] "POST /api/external-data HTTP/1.1" 200 -
+2026-02-15 08:55:56,640 - modules.data_preprocessing - INFO - Starting data preprocessing
+2026-02-15 08:55:56,641 - modules.data_preprocessing - INFO - Missing values handled
+2026-02-15 08:55:56,645 - modules.data_preprocessing - INFO - Outliers capped in 3 columns
+2026-02-15 08:55:56,645 - modules.data_preprocessing - INFO - Outliers removed
+2026-02-15 08:55:56,646 - modules.data_preprocessing - INFO - Encoded 2 categorical columns
+2026-02-15 08:55:56,646 - modules.data_preprocessing - INFO - Categorical variables encoded
+2026-02-15 08:55:56,650 - modules.data_preprocessing - INFO - Scaled 2 numerical columns
+2026-02-15 08:55:56,650 - modules.data_preprocessing - INFO - Numerical features scaled
+2026-02-15 08:55:56,651 - modules.data_preprocessing - INFO - Time series formatting complete
+2026-02-15 08:55:56,651 - modules.data_preprocessing - INFO - Time-series format applied
+2026-02-15 08:55:56,651 - modules.data_preprocessing - INFO - Preprocessing complete. Final shape: (90, 6)
+2026-02-15 08:55:56,884 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: preprocessed
+2026-02-15 08:55:56,884 - __main__ - INFO - Data preprocessed successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 08:55:56,886 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:55:56] "POST /api/preprocess HTTP/1.1" 200 -
+2026-02-15 08:55:57,128 - modules.feature_engineering - INFO - Starting feature engineering
+2026-02-15 08:55:57,130 - modules.feature_engineering - INFO - Created 6 lagged features
+2026-02-15 08:55:57,130 - modules.feature_engineering - INFO - Lagged features created
+2026-02-15 08:55:57,132 - modules.feature_engineering - INFO - Created moving average features with windows: [3, 7, 14, 30]
+2026-02-15 08:55:57,132 - modules.feature_engineering - INFO - Moving average features created
+2026-02-15 08:55:57,137 - modules.feature_engineering - INFO - Date features created
+2026-02-15 08:55:57,137 - modules.feature_engineering - INFO - Date features created
+2026-02-15 08:55:57,141 - modules.feature_engineering - INFO - Weather features merged and created
+2026-02-15 08:55:57,141 - modules.feature_engineering - INFO - Weather features created
+2026-02-15 08:55:57,143 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 08:55:57,143 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 08:55:57,145 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 08:55:57,145 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 08:55:57,146 - __main__ - ERROR - Error engineering features: NDFrame.fillna() got an unexpected keyword argument 'method'
+2026-02-15 08:55:57,146 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:55:57] "[35m[1mPOST /api/engineer-features HTTP/1.1[0m" 500 -
+2026-02-15 08:56:08,156 - werkzeug - INFO -  * Detected change in '/workspace/backend/modules/feature_engineering.py', reloading
+2026-02-15 08:56:08,823 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 08:56:12,851 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:56:12,856 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 08:56:12,857 - werkzeug - INFO -  * Debugger PIN: 216-514-528
+2026-02-15 08:56:15,870 - werkzeug - INFO -  * Detected change in '/workspace/backend/modules/data_preprocessing.py', reloading
+2026-02-15 08:56:16,499 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 08:56:27,613 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:56:27,628 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 08:56:27,628 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 08:56:27,629 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 08:56:31,459 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:56:31,465 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 08:56:31,465 - werkzeug - INFO -  * Debugger PIN: 136-262-471
+2026-02-15 08:56:40,243 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-15 08:56:40,731 - database - INFO - Database indexes created successfully
+2026-02-15 08:56:41,465 - auth - INFO - User logged in: testuser123
+2026-02-15 08:56:41,466 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:56:41] "POST /login HTTP/1.1" 200 -
+2026-02-15 08:56:41,702 - modules.data_collection - INFO - Importing sales data from ../data/uploads/sample_sales_data.csv
+2026-02-15 08:56:41,706 - modules.data_collection - INFO - Successfully imported 90 records
+2026-02-15 08:56:41,943 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: raw
+2026-02-15 08:56:41,943 - __main__ - INFO - Data uploaded successfully by user 6991888e34b10b7e37645d1c: sample_sales_data.csv
+2026-02-15 08:56:41,945 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:56:41] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 08:56:42,179 - modules.data_collection - INFO - Fetching weather data for New York from 2024-01-01 to 2024-12-31
+2026-02-15 08:56:42,181 - modules.data_collection - INFO - Fetched 366 weather records
+2026-02-15 08:56:42,181 - modules.data_collection - INFO - Fetching holiday data for US from 2024-01-01 to 2024-12-31
+2026-02-15 08:56:42,183 - modules.data_collection - INFO - Fetched 13 holiday records
+2026-02-15 08:56:42,183 - __main__ - INFO - External data fetched for user 6991888e34b10b7e37645d1c
+2026-02-15 08:56:42,190 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:56:42] "POST /api/external-data HTTP/1.1" 200 -
+2026-02-15 08:56:42,425 - modules.data_preprocessing - INFO - Starting data preprocessing
+2026-02-15 08:56:42,426 - modules.data_preprocessing - INFO - Missing values handled
+2026-02-15 08:56:42,429 - modules.data_preprocessing - INFO - Outliers capped in 3 columns
+2026-02-15 08:56:42,429 - modules.data_preprocessing - INFO - Outliers removed
+2026-02-15 08:56:42,430 - modules.data_preprocessing - INFO - Encoded 2 categorical columns
+2026-02-15 08:56:42,430 - modules.data_preprocessing - INFO - Categorical variables encoded
+2026-02-15 08:56:42,432 - modules.data_preprocessing - INFO - Scaled 2 numerical columns
+2026-02-15 08:56:42,432 - modules.data_preprocessing - INFO - Numerical features scaled
+2026-02-15 08:56:42,433 - modules.data_preprocessing - INFO - Time series formatting complete
+2026-02-15 08:56:42,433 - modules.data_preprocessing - INFO - Time-series format applied
+2026-02-15 08:56:42,433 - modules.data_preprocessing - INFO - Preprocessing complete. Final shape: (90, 6)
+2026-02-15 08:56:42,669 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: preprocessed
+2026-02-15 08:56:42,669 - __main__ - INFO - Data preprocessed successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 08:56:42,671 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:56:42] "POST /api/preprocess HTTP/1.1" 200 -
+2026-02-15 08:56:42,905 - modules.feature_engineering - INFO - Starting feature engineering
+2026-02-15 08:56:42,907 - modules.feature_engineering - INFO - Created 6 lagged features
+2026-02-15 08:56:42,907 - modules.feature_engineering - INFO - Lagged features created
+2026-02-15 08:56:42,909 - modules.feature_engineering - INFO - Created moving average features with windows: [3, 7, 14, 30]
+2026-02-15 08:56:42,909 - modules.feature_engineering - INFO - Moving average features created
+2026-02-15 08:56:42,914 - modules.feature_engineering - INFO - Date features created
+2026-02-15 08:56:42,914 - modules.feature_engineering - INFO - Date features created
+2026-02-15 08:56:42,917 - modules.feature_engineering - INFO - Weather features merged and created
+2026-02-15 08:56:42,917 - modules.feature_engineering - INFO - Weather features created
+2026-02-15 08:56:42,919 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 08:56:42,919 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 08:56:42,921 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 08:56:42,921 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 08:56:42,923 - modules.feature_engineering - INFO - Feature engineering complete. Total features: 58
+2026-02-15 08:56:43,627 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: features
+2026-02-15 08:56:43,628 - __main__ - INFO - Features engineered successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 08:56:43,631 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:56:43] "POST /api/engineer-features HTTP/1.1" 200 -
+2026-02-15 08:56:43,867 - modules.model_training - INFO - Starting model training for 3 models
+2026-02-15 08:56:43,868 - __main__ - ERROR - Error training models: NDFrame.fillna() got an unexpected keyword argument 'method'
+2026-02-15 08:56:43,869 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:56:43] "[35m[1mPOST /api/train HTTP/1.1[0m" 500 -
+2026-02-15 08:56:59,545 - werkzeug - INFO -  * Detected change in '/workspace/backend/modules/model_training.py', reloading
+2026-02-15 08:57:00,322 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 08:57:10,758 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:57:10,773 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 08:57:10,773 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 08:57:10,774 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 08:57:14,808 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:57:14,814 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 08:57:14,814 - werkzeug - INFO -  * Debugger PIN: 143-402-535
+2026-02-15 08:57:23,111 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-15 08:57:23,599 - database - INFO - Database indexes created successfully
+2026-02-15 08:57:24,334 - auth - INFO - User logged in: testuser123
+2026-02-15 08:57:24,336 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:57:24] "POST /login HTTP/1.1" 200 -
+2026-02-15 08:57:24,568 - modules.data_collection - INFO - Importing sales data from ../data/uploads/sample_sales_data.csv
+2026-02-15 08:57:24,572 - modules.data_collection - INFO - Successfully imported 90 records
+2026-02-15 08:57:24,805 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: raw
+2026-02-15 08:57:24,805 - __main__ - INFO - Data uploaded successfully by user 6991888e34b10b7e37645d1c: sample_sales_data.csv
+2026-02-15 08:57:24,807 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:57:24] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 08:57:25,038 - modules.data_collection - INFO - Fetching weather data for New York from 2024-01-01 to 2024-12-31
+2026-02-15 08:57:25,040 - modules.data_collection - INFO - Fetched 366 weather records
+2026-02-15 08:57:25,041 - modules.data_collection - INFO - Fetching holiday data for US from 2024-01-01 to 2024-12-31
+2026-02-15 08:57:25,042 - modules.data_collection - INFO - Fetched 13 holiday records
+2026-02-15 08:57:25,043 - __main__ - INFO - External data fetched for user 6991888e34b10b7e37645d1c
+2026-02-15 08:57:25,050 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:57:25] "POST /api/external-data HTTP/1.1" 200 -
+2026-02-15 08:57:25,282 - modules.data_preprocessing - INFO - Starting data preprocessing
+2026-02-15 08:57:25,283 - modules.data_preprocessing - INFO - Missing values handled
+2026-02-15 08:57:25,286 - modules.data_preprocessing - INFO - Outliers capped in 3 columns
+2026-02-15 08:57:25,286 - modules.data_preprocessing - INFO - Outliers removed
+2026-02-15 08:57:25,287 - modules.data_preprocessing - INFO - Encoded 2 categorical columns
+2026-02-15 08:57:25,287 - modules.data_preprocessing - INFO - Categorical variables encoded
+2026-02-15 08:57:25,290 - modules.data_preprocessing - INFO - Scaled 2 numerical columns
+2026-02-15 08:57:25,290 - modules.data_preprocessing - INFO - Numerical features scaled
+2026-02-15 08:57:25,291 - modules.data_preprocessing - INFO - Time series formatting complete
+2026-02-15 08:57:25,291 - modules.data_preprocessing - INFO - Time-series format applied
+2026-02-15 08:57:25,291 - modules.data_preprocessing - INFO - Preprocessing complete. Final shape: (90, 6)
+2026-02-15 08:57:25,524 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: preprocessed
+2026-02-15 08:57:25,524 - __main__ - INFO - Data preprocessed successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 08:57:25,526 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:57:25] "POST /api/preprocess HTTP/1.1" 200 -
+2026-02-15 08:57:25,758 - modules.feature_engineering - INFO - Starting feature engineering
+2026-02-15 08:57:25,759 - modules.feature_engineering - INFO - Created 6 lagged features
+2026-02-15 08:57:25,760 - modules.feature_engineering - INFO - Lagged features created
+2026-02-15 08:57:25,761 - modules.feature_engineering - INFO - Created moving average features with windows: [3, 7, 14, 30]
+2026-02-15 08:57:25,761 - modules.feature_engineering - INFO - Moving average features created
+2026-02-15 08:57:25,766 - modules.feature_engineering - INFO - Date features created
+2026-02-15 08:57:25,766 - modules.feature_engineering - INFO - Date features created
+2026-02-15 08:57:25,770 - modules.feature_engineering - INFO - Weather features merged and created
+2026-02-15 08:57:25,770 - modules.feature_engineering - INFO - Weather features created
+2026-02-15 08:57:25,772 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 08:57:25,772 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 08:57:25,773 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 08:57:25,773 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 08:57:25,775 - modules.feature_engineering - INFO - Feature engineering complete. Total features: 58
+2026-02-15 08:57:26,470 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: features
+2026-02-15 08:57:26,471 - __main__ - INFO - Features engineered successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 08:57:26,475 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:57:26] "POST /api/engineer-features HTTP/1.1" 200 -
+2026-02-15 08:57:26,706 - modules.model_training - INFO - Starting model training for 3 models
+2026-02-15 08:57:26,711 - modules.model_training - INFO - Training random_forest model
+2026-02-15 08:57:26,713 - modules.model_training - ERROR - Error training random_forest: could not convert string to float: 'New York'
+2026-02-15 08:57:26,713 - modules.model_training - INFO - Training gradient_boosting model
+2026-02-15 08:57:26,714 - modules.model_training - ERROR - Error training gradient_boosting: could not convert string to float: 'New York'
+2026-02-15 08:57:26,714 - modules.model_training - INFO - Training linear_regression model
+2026-02-15 08:57:26,715 - modules.model_training - ERROR - Error training linear_regression: could not convert string to float: 'New York'
+2026-02-15 08:57:26,715 - modules.model_training - INFO - Model training completed in 0.01 seconds
+2026-02-15 08:57:26,715 - __main__ - INFO - Models trained successfully for user 6991888e34b10b7e37645d1c: []
+2026-02-15 08:57:26,715 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:57:26] "POST /api/train HTTP/1.1" 200 -
+2026-02-15 08:57:26,946 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:57:26] "[31m[1mPOST /api/forecast HTTP/1.1[0m" 400 -
+2026-02-15 08:57:45,898 - werkzeug - INFO -  * Detected change in '/workspace/backend/modules/model_training.py', reloading
+2026-02-15 08:57:46,550 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 08:57:56,752 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:57:56,768 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 08:57:56,768 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 08:57:56,769 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 08:58:00,548 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:58:00,554 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 08:58:00,555 - werkzeug - INFO -  * Debugger PIN: 134-072-041
+2026-02-15 08:58:10,158 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-15 08:58:10,645 - database - INFO - Database indexes created successfully
+2026-02-15 08:58:11,378 - auth - INFO - User logged in: testuser123
+2026-02-15 08:58:11,379 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:58:11] "POST /login HTTP/1.1" 200 -
+2026-02-15 08:58:11,612 - modules.data_collection - INFO - Importing sales data from ../data/uploads/sample_sales_data.csv
+2026-02-15 08:58:11,616 - modules.data_collection - INFO - Successfully imported 90 records
+2026-02-15 08:58:11,848 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: raw
+2026-02-15 08:58:11,848 - __main__ - INFO - Data uploaded successfully by user 6991888e34b10b7e37645d1c: sample_sales_data.csv
+2026-02-15 08:58:11,850 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:58:11] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 08:58:12,081 - modules.data_collection - INFO - Fetching weather data for New York from 2024-01-01 to 2024-12-31
+2026-02-15 08:58:12,083 - modules.data_collection - INFO - Fetched 366 weather records
+2026-02-15 08:58:12,083 - modules.data_collection - INFO - Fetching holiday data for US from 2024-01-01 to 2024-12-31
+2026-02-15 08:58:12,085 - modules.data_collection - INFO - Fetched 13 holiday records
+2026-02-15 08:58:12,085 - __main__ - INFO - External data fetched for user 6991888e34b10b7e37645d1c
+2026-02-15 08:58:12,092 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:58:12] "POST /api/external-data HTTP/1.1" 200 -
+2026-02-15 08:58:12,324 - modules.data_preprocessing - INFO - Starting data preprocessing
+2026-02-15 08:58:12,325 - modules.data_preprocessing - INFO - Missing values handled
+2026-02-15 08:58:12,328 - modules.data_preprocessing - INFO - Outliers capped in 3 columns
+2026-02-15 08:58:12,328 - modules.data_preprocessing - INFO - Outliers removed
+2026-02-15 08:58:12,329 - modules.data_preprocessing - INFO - Encoded 2 categorical columns
+2026-02-15 08:58:12,329 - modules.data_preprocessing - INFO - Categorical variables encoded
+2026-02-15 08:58:12,332 - modules.data_preprocessing - INFO - Scaled 2 numerical columns
+2026-02-15 08:58:12,332 - modules.data_preprocessing - INFO - Numerical features scaled
+2026-02-15 08:58:12,332 - modules.data_preprocessing - INFO - Time series formatting complete
+2026-02-15 08:58:12,333 - modules.data_preprocessing - INFO - Time-series format applied
+2026-02-15 08:58:12,333 - modules.data_preprocessing - INFO - Preprocessing complete. Final shape: (90, 6)
+2026-02-15 08:58:12,565 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: preprocessed
+2026-02-15 08:58:12,566 - __main__ - INFO - Data preprocessed successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 08:58:12,567 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:58:12] "POST /api/preprocess HTTP/1.1" 200 -
+2026-02-15 08:58:12,798 - modules.feature_engineering - INFO - Starting feature engineering
+2026-02-15 08:58:12,800 - modules.feature_engineering - INFO - Created 6 lagged features
+2026-02-15 08:58:12,800 - modules.feature_engineering - INFO - Lagged features created
+2026-02-15 08:58:12,802 - modules.feature_engineering - INFO - Created moving average features with windows: [3, 7, 14, 30]
+2026-02-15 08:58:12,802 - modules.feature_engineering - INFO - Moving average features created
+2026-02-15 08:58:12,807 - modules.feature_engineering - INFO - Date features created
+2026-02-15 08:58:12,807 - modules.feature_engineering - INFO - Date features created
+2026-02-15 08:58:12,810 - modules.feature_engineering - INFO - Weather features merged and created
+2026-02-15 08:58:12,810 - modules.feature_engineering - INFO - Weather features created
+2026-02-15 08:58:12,812 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 08:58:12,812 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 08:58:12,814 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 08:58:12,814 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 08:58:12,815 - modules.feature_engineering - INFO - Feature engineering complete. Total features: 58
+2026-02-15 08:58:13,511 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: features
+2026-02-15 08:58:13,511 - __main__ - INFO - Features engineered successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 08:58:13,515 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:58:13] "POST /api/engineer-features HTTP/1.1" 200 -
+2026-02-15 08:58:13,746 - modules.model_training - INFO - Starting model training for 3 models
+2026-02-15 08:58:13,750 - modules.model_training - INFO - Training random_forest model
+2026-02-15 08:58:13,855 - modules.model_training - INFO - random_forest trained - MAE: 0.15
+2026-02-15 08:58:13,870 - modules.model_training - INFO - Model saved: ../models/random_forest_model.pkl
+2026-02-15 08:58:13,870 - modules.model_training - INFO - Training gradient_boosting model
+2026-02-15 08:58:13,947 - modules.model_training - INFO - gradient_boosting trained - MAE: 0.11
+2026-02-15 08:58:13,950 - modules.model_training - INFO - Model saved: ../models/gradient_boosting_model.pkl
+2026-02-15 08:58:13,950 - modules.model_training - INFO - Training linear_regression model
+2026-02-15 08:58:13,955 - modules.model_training - INFO - linear_regression trained - MAE: 0.00
+2026-02-15 08:58:13,956 - modules.model_training - INFO - Model saved: ../models/linear_regression_model.pkl
+2026-02-15 08:58:13,956 - modules.model_training - INFO - Model training completed in 0.21 seconds
+2026-02-15 08:58:13,956 - __main__ - ERROR - Error training models: 'ModelEvaluation' object has no attribute '_calculate_metrics'
+2026-02-15 08:58:13,957 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:58:13] "[35m[1mPOST /api/train HTTP/1.1[0m" 500 -
+2026-02-15 08:58:31,641 - werkzeug - INFO -  * Detected change in '/workspace/backend/app.py', reloading
+2026-02-15 08:58:32,235 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 08:58:41,943 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:58:41,958 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 08:58:41,958 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 08:58:41,959 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 08:58:45,845 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:58:45,850 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 08:58:45,851 - werkzeug - INFO -  * Debugger PIN: 646-131-545
+2026-02-15 08:58:56,998 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-15 08:58:57,483 - database - INFO - Database indexes created successfully
+2026-02-15 08:58:58,212 - auth - INFO - User logged in: testuser123
+2026-02-15 08:58:58,213 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:58:58] "POST /login HTTP/1.1" 200 -
+2026-02-15 08:58:58,446 - modules.data_collection - INFO - Importing sales data from ../data/uploads/sample_sales_data.csv
+2026-02-15 08:58:58,450 - modules.data_collection - INFO - Successfully imported 90 records
+2026-02-15 08:58:58,683 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: raw
+2026-02-15 08:58:58,683 - __main__ - INFO - Data uploaded successfully by user 6991888e34b10b7e37645d1c: sample_sales_data.csv
+2026-02-15 08:58:58,685 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:58:58] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 08:58:58,915 - modules.data_collection - INFO - Fetching weather data for New York from 2024-01-01 to 2024-12-31
+2026-02-15 08:58:58,917 - modules.data_collection - INFO - Fetched 366 weather records
+2026-02-15 08:58:58,918 - modules.data_collection - INFO - Fetching holiday data for US from 2024-01-01 to 2024-12-31
+2026-02-15 08:58:58,919 - modules.data_collection - INFO - Fetched 13 holiday records
+2026-02-15 08:58:58,919 - __main__ - INFO - External data fetched for user 6991888e34b10b7e37645d1c
+2026-02-15 08:58:58,927 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:58:58] "POST /api/external-data HTTP/1.1" 200 -
+2026-02-15 08:58:59,158 - modules.data_preprocessing - INFO - Starting data preprocessing
+2026-02-15 08:58:59,159 - modules.data_preprocessing - INFO - Missing values handled
+2026-02-15 08:58:59,162 - modules.data_preprocessing - INFO - Outliers capped in 3 columns
+2026-02-15 08:58:59,162 - modules.data_preprocessing - INFO - Outliers removed
+2026-02-15 08:58:59,163 - modules.data_preprocessing - INFO - Encoded 2 categorical columns
+2026-02-15 08:58:59,163 - modules.data_preprocessing - INFO - Categorical variables encoded
+2026-02-15 08:58:59,166 - modules.data_preprocessing - INFO - Scaled 2 numerical columns
+2026-02-15 08:58:59,166 - modules.data_preprocessing - INFO - Numerical features scaled
+2026-02-15 08:58:59,167 - modules.data_preprocessing - INFO - Time series formatting complete
+2026-02-15 08:58:59,167 - modules.data_preprocessing - INFO - Time-series format applied
+2026-02-15 08:58:59,167 - modules.data_preprocessing - INFO - Preprocessing complete. Final shape: (90, 6)
+2026-02-15 08:58:59,400 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: preprocessed
+2026-02-15 08:58:59,400 - __main__ - INFO - Data preprocessed successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 08:58:59,402 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:58:59] "POST /api/preprocess HTTP/1.1" 200 -
+2026-02-15 08:58:59,633 - modules.feature_engineering - INFO - Starting feature engineering
+2026-02-15 08:58:59,634 - modules.feature_engineering - INFO - Created 6 lagged features
+2026-02-15 08:58:59,635 - modules.feature_engineering - INFO - Lagged features created
+2026-02-15 08:58:59,636 - modules.feature_engineering - INFO - Created moving average features with windows: [3, 7, 14, 30]
+2026-02-15 08:58:59,637 - modules.feature_engineering - INFO - Moving average features created
+2026-02-15 08:58:59,641 - modules.feature_engineering - INFO - Date features created
+2026-02-15 08:58:59,641 - modules.feature_engineering - INFO - Date features created
+2026-02-15 08:58:59,645 - modules.feature_engineering - INFO - Weather features merged and created
+2026-02-15 08:58:59,645 - modules.feature_engineering - INFO - Weather features created
+2026-02-15 08:58:59,647 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 08:58:59,647 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 08:58:59,649 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 08:58:59,649 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 08:58:59,650 - modules.feature_engineering - INFO - Feature engineering complete. Total features: 58
+2026-02-15 08:59:00,344 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: features
+2026-02-15 08:59:00,344 - __main__ - INFO - Features engineered successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 08:59:00,348 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:59:00] "POST /api/engineer-features HTTP/1.1" 200 -
+2026-02-15 08:59:00,579 - modules.model_training - INFO - Starting model training for 3 models
+2026-02-15 08:59:00,584 - modules.model_training - INFO - Training random_forest model
+2026-02-15 08:59:00,688 - modules.model_training - INFO - random_forest trained - MAE: 0.16
+2026-02-15 08:59:00,702 - modules.model_training - INFO - Model saved: ../models/random_forest_model.pkl
+2026-02-15 08:59:00,702 - modules.model_training - INFO - Training gradient_boosting model
+2026-02-15 08:59:00,779 - modules.model_training - INFO - gradient_boosting trained - MAE: 0.12
+2026-02-15 08:59:00,782 - modules.model_training - INFO - Model saved: ../models/gradient_boosting_model.pkl
+2026-02-15 08:59:00,782 - modules.model_training - INFO - Training linear_regression model
+2026-02-15 08:59:00,785 - modules.model_training - INFO - linear_regression trained - MAE: 0.00
+2026-02-15 08:59:00,786 - modules.model_training - INFO - Model saved: ../models/linear_regression_model.pkl
+2026-02-15 08:59:00,786 - modules.model_training - INFO - Model training completed in 0.21 seconds
+2026-02-15 08:59:01,038 - database - INFO - Model saved: random_forest for user 6991888e34b10b7e37645d1c
+2026-02-15 08:59:01,269 - database - INFO - Model saved: gradient_boosting for user 6991888e34b10b7e37645d1c
+2026-02-15 08:59:01,506 - database - INFO - Model saved: linear_regression for user 6991888e34b10b7e37645d1c
+2026-02-15 08:59:01,506 - __main__ - INFO - Models trained successfully for user 6991888e34b10b7e37645d1c: ['random_forest', 'gradient_boosting', 'linear_regression']
+2026-02-15 08:59:01,506 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:59:01] "POST /api/train HTTP/1.1" 200 -
+2026-02-15 08:59:01,737 - modules.forecasting - INFO - Generating 30-day forecast
+2026-02-15 08:59:01,741 - modules.forecasting - ERROR - Error preparing forecast features: 'predicted_demand'
+2026-02-15 08:59:01,741 - modules.forecasting - ERROR - Error generating forecast: 'predicted_demand'
+2026-02-15 08:59:01,741 - __main__ - ERROR - Error generating forecast: 'predicted_demand'
+2026-02-15 08:59:01,745 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 08:59:01] "[35m[1mPOST /api/forecast HTTP/1.1[0m" 500 -
+2026-02-15 08:59:42,010 - werkzeug - INFO -  * Detected change in '/workspace/backend/modules/forecasting.py', reloading
+2026-02-15 08:59:42,597 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 08:59:52,595 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:59:52,611 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 08:59:52,611 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 08:59:52,612 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 08:59:56,475 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 08:59:56,481 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 08:59:56,481 - werkzeug - INFO -  * Debugger PIN: 635-444-311
+2026-02-15 09:00:08,513 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-15 09:00:09,001 - database - INFO - Database indexes created successfully
+2026-02-15 09:00:09,739 - auth - INFO - User logged in: testuser123
+2026-02-15 09:00:09,740 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:00:09] "POST /login HTTP/1.1" 200 -
+2026-02-15 09:00:09,971 - modules.data_collection - INFO - Importing sales data from ../data/uploads/sample_sales_data.csv
+2026-02-15 09:00:09,975 - modules.data_collection - INFO - Successfully imported 90 records
+2026-02-15 09:00:10,207 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: raw
+2026-02-15 09:00:10,207 - __main__ - INFO - Data uploaded successfully by user 6991888e34b10b7e37645d1c: sample_sales_data.csv
+2026-02-15 09:00:10,209 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:00:10] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 09:00:10,438 - modules.data_collection - INFO - Fetching weather data for New York from 2024-01-01 to 2024-12-31
+2026-02-15 09:00:10,440 - modules.data_collection - INFO - Fetched 366 weather records
+2026-02-15 09:00:10,440 - modules.data_collection - INFO - Fetching holiday data for US from 2024-01-01 to 2024-12-31
+2026-02-15 09:00:10,442 - modules.data_collection - INFO - Fetched 13 holiday records
+2026-02-15 09:00:10,442 - __main__ - INFO - External data fetched for user 6991888e34b10b7e37645d1c
+2026-02-15 09:00:10,449 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:00:10] "POST /api/external-data HTTP/1.1" 200 -
+2026-02-15 09:00:10,679 - modules.data_preprocessing - INFO - Starting data preprocessing
+2026-02-15 09:00:10,680 - modules.data_preprocessing - INFO - Missing values handled
+2026-02-15 09:00:10,683 - modules.data_preprocessing - INFO - Outliers capped in 3 columns
+2026-02-15 09:00:10,683 - modules.data_preprocessing - INFO - Outliers removed
+2026-02-15 09:00:10,684 - modules.data_preprocessing - INFO - Encoded 2 categorical columns
+2026-02-15 09:00:10,684 - modules.data_preprocessing - INFO - Categorical variables encoded
+2026-02-15 09:00:10,687 - modules.data_preprocessing - INFO - Scaled 2 numerical columns
+2026-02-15 09:00:10,687 - modules.data_preprocessing - INFO - Numerical features scaled
+2026-02-15 09:00:10,688 - modules.data_preprocessing - INFO - Time series formatting complete
+2026-02-15 09:00:10,688 - modules.data_preprocessing - INFO - Time-series format applied
+2026-02-15 09:00:10,688 - modules.data_preprocessing - INFO - Preprocessing complete. Final shape: (90, 6)
+2026-02-15 09:00:10,919 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: preprocessed
+2026-02-15 09:00:10,920 - __main__ - INFO - Data preprocessed successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 09:00:10,921 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:00:10] "POST /api/preprocess HTTP/1.1" 200 -
+2026-02-15 09:00:11,151 - modules.feature_engineering - INFO - Starting feature engineering
+2026-02-15 09:00:11,153 - modules.feature_engineering - INFO - Created 6 lagged features
+2026-02-15 09:00:11,153 - modules.feature_engineering - INFO - Lagged features created
+2026-02-15 09:00:11,155 - modules.feature_engineering - INFO - Created moving average features with windows: [3, 7, 14, 30]
+2026-02-15 09:00:11,155 - modules.feature_engineering - INFO - Moving average features created
+2026-02-15 09:00:11,160 - modules.feature_engineering - INFO - Date features created
+2026-02-15 09:00:11,160 - modules.feature_engineering - INFO - Date features created
+2026-02-15 09:00:11,163 - modules.feature_engineering - INFO - Weather features merged and created
+2026-02-15 09:00:11,163 - modules.feature_engineering - INFO - Weather features created
+2026-02-15 09:00:11,165 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 09:00:11,165 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 09:00:11,167 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 09:00:11,167 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 09:00:11,168 - modules.feature_engineering - INFO - Feature engineering complete. Total features: 58
+2026-02-15 09:00:11,859 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: features
+2026-02-15 09:00:11,859 - __main__ - INFO - Features engineered successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 09:00:11,863 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:00:11] "POST /api/engineer-features HTTP/1.1" 200 -
+2026-02-15 09:00:12,093 - modules.model_training - INFO - Starting model training for 3 models
+2026-02-15 09:00:12,097 - modules.model_training - INFO - Training random_forest model
+2026-02-15 09:00:12,203 - modules.model_training - INFO - random_forest trained - MAE: 0.14
+2026-02-15 09:00:12,217 - modules.model_training - INFO - Model saved: ../models/random_forest_model.pkl
+2026-02-15 09:00:12,217 - modules.model_training - INFO - Training gradient_boosting model
+2026-02-15 09:00:12,292 - modules.model_training - INFO - gradient_boosting trained - MAE: 0.10
+2026-02-15 09:00:12,295 - modules.model_training - INFO - Model saved: ../models/gradient_boosting_model.pkl
+2026-02-15 09:00:12,295 - modules.model_training - INFO - Training linear_regression model
+2026-02-15 09:00:12,298 - modules.model_training - INFO - linear_regression trained - MAE: 0.00
+2026-02-15 09:00:12,299 - modules.model_training - INFO - Model saved: ../models/linear_regression_model.pkl
+2026-02-15 09:00:12,299 - modules.model_training - INFO - Model training completed in 0.21 seconds
+2026-02-15 09:00:12,528 - database - INFO - Model saved: random_forest for user 6991888e34b10b7e37645d1c
+2026-02-15 09:00:12,757 - database - INFO - Model saved: gradient_boosting for user 6991888e34b10b7e37645d1c
+2026-02-15 09:00:12,987 - database - INFO - Model saved: linear_regression for user 6991888e34b10b7e37645d1c
+2026-02-15 09:00:12,987 - __main__ - INFO - Models trained successfully for user 6991888e34b10b7e37645d1c: ['random_forest', 'gradient_boosting', 'linear_regression']
+2026-02-15 09:00:12,987 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:00:12] "POST /api/train HTTP/1.1" 200 -
+2026-02-15 09:00:13,216 - modules.forecasting - INFO - Generating 30-day forecast
+2026-02-15 09:00:13,245 - modules.forecasting - ERROR - Error preparing forecast features: Must pass 2-d input. shape=(30, 1, 59)
+2026-02-15 09:00:13,245 - modules.forecasting - ERROR - Error generating forecast: Must pass 2-d input. shape=(30, 1, 59)
+2026-02-15 09:00:13,245 - __main__ - ERROR - Error generating forecast: Must pass 2-d input. shape=(30, 1, 59)
+2026-02-15 09:00:13,248 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:00:13] "[35m[1mPOST /api/forecast HTTP/1.1[0m" 500 -
+2026-02-15 09:00:39,598 - werkzeug - INFO -  * Detected change in '/workspace/backend/modules/forecasting.py', reloading
+2026-02-15 09:00:40,252 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:00:44,127 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:00:44,134 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:00:44,134 - werkzeug - INFO -  * Debugger PIN: 635-444-311
+2026-02-15 09:00:57,884 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:00:57,900 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 09:00:57,900 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 09:00:57,901 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:01:01,848 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:01:01,853 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:01:01,854 - werkzeug - INFO -  * Debugger PIN: 129-330-183
+2026-02-15 09:01:10,313 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-15 09:01:10,805 - database - INFO - Database indexes created successfully
+2026-02-15 09:01:11,539 - auth - INFO - User logged in: testuser123
+2026-02-15 09:01:11,541 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:01:11] "POST /login HTTP/1.1" 200 -
+2026-02-15 09:01:11,781 - modules.data_collection - INFO - Importing sales data from ../data/uploads/sample_sales_data.csv
+2026-02-15 09:01:11,785 - modules.data_collection - INFO - Successfully imported 90 records
+2026-02-15 09:01:12,026 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: raw
+2026-02-15 09:01:12,026 - __main__ - INFO - Data uploaded successfully by user 6991888e34b10b7e37645d1c: sample_sales_data.csv
+2026-02-15 09:01:12,028 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:01:12] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 09:01:12,267 - modules.data_collection - INFO - Fetching weather data for New York from 2024-01-01 to 2024-12-31
+2026-02-15 09:01:12,269 - modules.data_collection - INFO - Fetched 366 weather records
+2026-02-15 09:01:12,269 - modules.data_collection - INFO - Fetching holiday data for US from 2024-01-01 to 2024-12-31
+2026-02-15 09:01:12,271 - modules.data_collection - INFO - Fetched 13 holiday records
+2026-02-15 09:01:12,271 - __main__ - INFO - External data fetched for user 6991888e34b10b7e37645d1c
+2026-02-15 09:01:12,278 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:01:12] "POST /api/external-data HTTP/1.1" 200 -
+2026-02-15 09:01:12,518 - modules.data_preprocessing - INFO - Starting data preprocessing
+2026-02-15 09:01:12,519 - modules.data_preprocessing - INFO - Missing values handled
+2026-02-15 09:01:12,522 - modules.data_preprocessing - INFO - Outliers capped in 3 columns
+2026-02-15 09:01:12,522 - modules.data_preprocessing - INFO - Outliers removed
+2026-02-15 09:01:12,523 - modules.data_preprocessing - INFO - Encoded 2 categorical columns
+2026-02-15 09:01:12,523 - modules.data_preprocessing - INFO - Categorical variables encoded
+2026-02-15 09:01:12,525 - modules.data_preprocessing - INFO - Scaled 2 numerical columns
+2026-02-15 09:01:12,526 - modules.data_preprocessing - INFO - Numerical features scaled
+2026-02-15 09:01:12,526 - modules.data_preprocessing - INFO - Time series formatting complete
+2026-02-15 09:01:12,526 - modules.data_preprocessing - INFO - Time-series format applied
+2026-02-15 09:01:12,526 - modules.data_preprocessing - INFO - Preprocessing complete. Final shape: (90, 6)
+2026-02-15 09:01:12,767 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: preprocessed
+2026-02-15 09:01:12,767 - __main__ - INFO - Data preprocessed successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 09:01:12,769 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:01:12] "POST /api/preprocess HTTP/1.1" 200 -
+2026-02-15 09:01:13,008 - modules.feature_engineering - INFO - Starting feature engineering
+2026-02-15 09:01:13,010 - modules.feature_engineering - INFO - Created 6 lagged features
+2026-02-15 09:01:13,010 - modules.feature_engineering - INFO - Lagged features created
+2026-02-15 09:01:13,012 - modules.feature_engineering - INFO - Created moving average features with windows: [3, 7, 14, 30]
+2026-02-15 09:01:13,012 - modules.feature_engineering - INFO - Moving average features created
+2026-02-15 09:01:13,017 - modules.feature_engineering - INFO - Date features created
+2026-02-15 09:01:13,017 - modules.feature_engineering - INFO - Date features created
+2026-02-15 09:01:13,020 - modules.feature_engineering - INFO - Weather features merged and created
+2026-02-15 09:01:13,020 - modules.feature_engineering - INFO - Weather features created
+2026-02-15 09:01:13,022 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 09:01:13,022 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 09:01:13,024 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 09:01:13,024 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 09:01:13,025 - modules.feature_engineering - INFO - Feature engineering complete. Total features: 58
+2026-02-15 09:01:13,760 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: features
+2026-02-15 09:01:13,760 - __main__ - INFO - Features engineered successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 09:01:13,764 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:01:13] "POST /api/engineer-features HTTP/1.1" 200 -
+2026-02-15 09:01:14,003 - modules.model_training - INFO - Starting model training for 3 models
+2026-02-15 09:01:14,010 - modules.model_training - INFO - Training random_forest model
+2026-02-15 09:01:14,140 - modules.model_training - INFO - random_forest trained - MAE: 0.15
+2026-02-15 09:01:14,155 - modules.model_training - INFO - Model saved: ../models/random_forest_model.pkl
+2026-02-15 09:01:14,155 - modules.model_training - INFO - Training gradient_boosting model
+2026-02-15 09:01:14,231 - modules.model_training - INFO - gradient_boosting trained - MAE: 0.11
+2026-02-15 09:01:14,234 - modules.model_training - INFO - Model saved: ../models/gradient_boosting_model.pkl
+2026-02-15 09:01:14,234 - modules.model_training - INFO - Training linear_regression model
+2026-02-15 09:01:14,237 - modules.model_training - INFO - linear_regression trained - MAE: 0.00
+2026-02-15 09:01:14,238 - modules.model_training - INFO - Model saved: ../models/linear_regression_model.pkl
+2026-02-15 09:01:14,238 - modules.model_training - INFO - Model training completed in 0.23 seconds
+2026-02-15 09:01:14,476 - database - INFO - Model saved: random_forest for user 6991888e34b10b7e37645d1c
+2026-02-15 09:01:14,715 - database - INFO - Model saved: gradient_boosting for user 6991888e34b10b7e37645d1c
+2026-02-15 09:01:14,964 - database - INFO - Model saved: linear_regression for user 6991888e34b10b7e37645d1c
+2026-02-15 09:01:14,964 - __main__ - INFO - Models trained successfully for user 6991888e34b10b7e37645d1c: ['random_forest', 'gradient_boosting', 'linear_regression']
+2026-02-15 09:01:14,964 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:01:14] "POST /api/train HTTP/1.1" 200 -
+2026-02-15 09:01:15,203 - modules.forecasting - INFO - Generating 30-day forecast
+2026-02-15 09:01:15,207 - modules.forecasting - ERROR - Error generating forecast: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- day
+- day_of_week
+- day_of_year
+- month
+- quarter
+- ...
+Feature names seen at fit time, yet now missing:
+- sales
+
+2026-02-15 09:01:15,208 - __main__ - ERROR - Error generating forecast: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- day
+- day_of_week
+- day_of_year
+- month
+- quarter
+- ...
+Feature names seen at fit time, yet now missing:
+- sales
+
+2026-02-15 09:01:15,209 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:01:15] "[35m[1mPOST /api/forecast HTTP/1.1[0m" 500 -
+2026-02-15 09:01:36,950 - werkzeug - INFO -  * Detected change in '/workspace/backend/modules/forecasting.py', reloading
+2026-02-15 09:01:37,462 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:01:48,836 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:01:48,852 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 09:01:48,852 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 09:01:48,853 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:01:52,666 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:01:52,672 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:01:52,672 - werkzeug - INFO -  * Debugger PIN: 617-438-356
+2026-02-15 09:02:01,352 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-15 09:02:01,838 - database - INFO - Database indexes created successfully
+2026-02-15 09:02:02,570 - auth - INFO - User logged in: testuser123
+2026-02-15 09:02:02,572 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:02:02] "POST /login HTTP/1.1" 200 -
+2026-02-15 09:02:02,805 - modules.data_collection - INFO - Importing sales data from ../data/uploads/sample_sales_data.csv
+2026-02-15 09:02:02,809 - modules.data_collection - INFO - Successfully imported 90 records
+2026-02-15 09:02:03,044 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: raw
+2026-02-15 09:02:03,044 - __main__ - INFO - Data uploaded successfully by user 6991888e34b10b7e37645d1c: sample_sales_data.csv
+2026-02-15 09:02:03,046 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:02:03] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 09:02:03,277 - modules.data_collection - INFO - Fetching weather data for New York from 2024-01-01 to 2024-12-31
+2026-02-15 09:02:03,279 - modules.data_collection - INFO - Fetched 366 weather records
+2026-02-15 09:02:03,279 - modules.data_collection - INFO - Fetching holiday data for US from 2024-01-01 to 2024-12-31
+2026-02-15 09:02:03,281 - modules.data_collection - INFO - Fetched 13 holiday records
+2026-02-15 09:02:03,281 - __main__ - INFO - External data fetched for user 6991888e34b10b7e37645d1c
+2026-02-15 09:02:03,289 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:02:03] "POST /api/external-data HTTP/1.1" 200 -
+2026-02-15 09:02:03,521 - modules.data_preprocessing - INFO - Starting data preprocessing
+2026-02-15 09:02:03,522 - modules.data_preprocessing - INFO - Missing values handled
+2026-02-15 09:02:03,525 - modules.data_preprocessing - INFO - Outliers capped in 3 columns
+2026-02-15 09:02:03,525 - modules.data_preprocessing - INFO - Outliers removed
+2026-02-15 09:02:03,526 - modules.data_preprocessing - INFO - Encoded 2 categorical columns
+2026-02-15 09:02:03,526 - modules.data_preprocessing - INFO - Categorical variables encoded
+2026-02-15 09:02:03,528 - modules.data_preprocessing - INFO - Scaled 2 numerical columns
+2026-02-15 09:02:03,529 - modules.data_preprocessing - INFO - Numerical features scaled
+2026-02-15 09:02:03,529 - modules.data_preprocessing - INFO - Time series formatting complete
+2026-02-15 09:02:03,529 - modules.data_preprocessing - INFO - Time-series format applied
+2026-02-15 09:02:03,529 - modules.data_preprocessing - INFO - Preprocessing complete. Final shape: (90, 6)
+2026-02-15 09:02:03,763 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: preprocessed
+2026-02-15 09:02:03,763 - __main__ - INFO - Data preprocessed successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 09:02:03,765 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:02:03] "POST /api/preprocess HTTP/1.1" 200 -
+2026-02-15 09:02:03,997 - modules.feature_engineering - INFO - Starting feature engineering
+2026-02-15 09:02:03,998 - modules.feature_engineering - INFO - Created 6 lagged features
+2026-02-15 09:02:03,999 - modules.feature_engineering - INFO - Lagged features created
+2026-02-15 09:02:04,001 - modules.feature_engineering - INFO - Created moving average features with windows: [3, 7, 14, 30]
+2026-02-15 09:02:04,001 - modules.feature_engineering - INFO - Moving average features created
+2026-02-15 09:02:04,005 - modules.feature_engineering - INFO - Date features created
+2026-02-15 09:02:04,005 - modules.feature_engineering - INFO - Date features created
+2026-02-15 09:02:04,009 - modules.feature_engineering - INFO - Weather features merged and created
+2026-02-15 09:02:04,009 - modules.feature_engineering - INFO - Weather features created
+2026-02-15 09:02:04,011 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 09:02:04,011 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 09:02:04,012 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 09:02:04,012 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 09:02:04,014 - modules.feature_engineering - INFO - Feature engineering complete. Total features: 58
+2026-02-15 09:02:04,711 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: features
+2026-02-15 09:02:04,711 - __main__ - INFO - Features engineered successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 09:02:04,715 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:02:04] "POST /api/engineer-features HTTP/1.1" 200 -
+2026-02-15 09:02:04,946 - modules.model_training - INFO - Starting model training for 3 models
+2026-02-15 09:02:04,951 - modules.model_training - INFO - Training random_forest model
+2026-02-15 09:02:05,055 - modules.model_training - INFO - random_forest trained - MAE: 0.15
+2026-02-15 09:02:05,069 - modules.model_training - INFO - Model saved: ../models/random_forest_model.pkl
+2026-02-15 09:02:05,069 - modules.model_training - INFO - Training gradient_boosting model
+2026-02-15 09:02:05,146 - modules.model_training - INFO - gradient_boosting trained - MAE: 0.11
+2026-02-15 09:02:05,149 - modules.model_training - INFO - Model saved: ../models/gradient_boosting_model.pkl
+2026-02-15 09:02:05,149 - modules.model_training - INFO - Training linear_regression model
+2026-02-15 09:02:05,153 - modules.model_training - INFO - linear_regression trained - MAE: 0.00
+2026-02-15 09:02:05,153 - modules.model_training - INFO - Model saved: ../models/linear_regression_model.pkl
+2026-02-15 09:02:05,153 - modules.model_training - INFO - Model training completed in 0.21 seconds
+2026-02-15 09:02:05,384 - database - INFO - Model saved: random_forest for user 6991888e34b10b7e37645d1c
+2026-02-15 09:02:05,616 - database - INFO - Model saved: gradient_boosting for user 6991888e34b10b7e37645d1c
+2026-02-15 09:02:05,847 - database - INFO - Model saved: linear_regression for user 6991888e34b10b7e37645d1c
+2026-02-15 09:02:05,847 - __main__ - INFO - Models trained successfully for user 6991888e34b10b7e37645d1c: ['random_forest', 'gradient_boosting', 'linear_regression']
+2026-02-15 09:02:05,847 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:02:05] "POST /api/train HTTP/1.1" 200 -
+2026-02-15 09:02:06,079 - modules.forecasting - INFO - Generating 30-day forecast
+2026-02-15 09:02:06,085 - modules.forecasting - ERROR - Error generating forecast: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- sales
+
+2026-02-15 09:02:06,085 - __main__ - ERROR - Error generating forecast: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- sales
+
+2026-02-15 09:02:06,086 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:02:06] "[35m[1mPOST /api/forecast HTTP/1.1[0m" 500 -
+2026-02-15 09:02:27,771 - werkzeug - INFO -  * Detected change in '/workspace/backend/modules/model_training.py', reloading
+2026-02-15 09:02:28,343 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:02:38,236 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:02:38,251 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 09:02:38,251 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 09:02:38,252 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:02:42,144 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:02:42,152 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:02:42,152 - werkzeug - INFO -  * Debugger PIN: 876-444-255
+2026-02-15 09:02:51,514 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-15 09:02:51,996 - database - INFO - Database indexes created successfully
+2026-02-15 09:02:52,724 - auth - INFO - User logged in: testuser123
+2026-02-15 09:02:52,726 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:02:52] "POST /login HTTP/1.1" 200 -
+2026-02-15 09:02:52,964 - modules.data_collection - INFO - Importing sales data from ../data/uploads/sample_sales_data.csv
+2026-02-15 09:02:52,968 - modules.data_collection - INFO - Successfully imported 90 records
+2026-02-15 09:02:53,219 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: raw
+2026-02-15 09:02:53,219 - __main__ - INFO - Data uploaded successfully by user 6991888e34b10b7e37645d1c: sample_sales_data.csv
+2026-02-15 09:02:53,221 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:02:53] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 09:02:53,467 - modules.data_collection - INFO - Fetching weather data for New York from 2024-01-01 to 2024-12-31
+2026-02-15 09:02:53,469 - modules.data_collection - INFO - Fetched 366 weather records
+2026-02-15 09:02:53,469 - modules.data_collection - INFO - Fetching holiday data for US from 2024-01-01 to 2024-12-31
+2026-02-15 09:02:53,471 - modules.data_collection - INFO - Fetched 13 holiday records
+2026-02-15 09:02:53,471 - __main__ - INFO - External data fetched for user 6991888e34b10b7e37645d1c
+2026-02-15 09:02:53,479 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:02:53] "POST /api/external-data HTTP/1.1" 200 -
+2026-02-15 09:02:53,716 - modules.data_preprocessing - INFO - Starting data preprocessing
+2026-02-15 09:02:53,717 - modules.data_preprocessing - INFO - Missing values handled
+2026-02-15 09:02:53,720 - modules.data_preprocessing - INFO - Outliers capped in 3 columns
+2026-02-15 09:02:53,720 - modules.data_preprocessing - INFO - Outliers removed
+2026-02-15 09:02:53,721 - modules.data_preprocessing - INFO - Encoded 2 categorical columns
+2026-02-15 09:02:53,721 - modules.data_preprocessing - INFO - Categorical variables encoded
+2026-02-15 09:02:53,724 - modules.data_preprocessing - INFO - Scaled 2 numerical columns
+2026-02-15 09:02:53,724 - modules.data_preprocessing - INFO - Numerical features scaled
+2026-02-15 09:02:53,725 - modules.data_preprocessing - INFO - Time series formatting complete
+2026-02-15 09:02:53,725 - modules.data_preprocessing - INFO - Time-series format applied
+2026-02-15 09:02:53,725 - modules.data_preprocessing - INFO - Preprocessing complete. Final shape: (90, 6)
+2026-02-15 09:02:53,964 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: preprocessed
+2026-02-15 09:02:53,964 - __main__ - INFO - Data preprocessed successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 09:02:53,966 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:02:53] "POST /api/preprocess HTTP/1.1" 200 -
+2026-02-15 09:02:54,203 - modules.feature_engineering - INFO - Starting feature engineering
+2026-02-15 09:02:54,204 - modules.feature_engineering - INFO - Created 6 lagged features
+2026-02-15 09:02:54,204 - modules.feature_engineering - INFO - Lagged features created
+2026-02-15 09:02:54,206 - modules.feature_engineering - INFO - Created moving average features with windows: [3, 7, 14, 30]
+2026-02-15 09:02:54,206 - modules.feature_engineering - INFO - Moving average features created
+2026-02-15 09:02:54,211 - modules.feature_engineering - INFO - Date features created
+2026-02-15 09:02:54,211 - modules.feature_engineering - INFO - Date features created
+2026-02-15 09:02:54,215 - modules.feature_engineering - INFO - Weather features merged and created
+2026-02-15 09:02:54,215 - modules.feature_engineering - INFO - Weather features created
+2026-02-15 09:02:54,217 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 09:02:54,217 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 09:02:54,218 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 09:02:54,219 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 09:02:54,220 - modules.feature_engineering - INFO - Feature engineering complete. Total features: 58
+2026-02-15 09:02:54,933 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: features
+2026-02-15 09:02:54,934 - __main__ - INFO - Features engineered successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 09:02:54,938 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:02:54] "POST /api/engineer-features HTTP/1.1" 200 -
+2026-02-15 09:02:55,174 - modules.model_training - INFO - Starting model training for 3 models
+2026-02-15 09:02:55,179 - modules.model_training - INFO - Training random_forest model
+2026-02-15 09:02:55,285 - modules.model_training - INFO - random_forest trained - MAE: 0.31
+2026-02-15 09:02:55,298 - modules.model_training - INFO - Model saved: ../models/random_forest_model.pkl
+2026-02-15 09:02:55,299 - modules.model_training - INFO - Training gradient_boosting model
+2026-02-15 09:02:55,373 - modules.model_training - INFO - gradient_boosting trained - MAE: 0.26
+2026-02-15 09:02:55,376 - modules.model_training - INFO - Model saved: ../models/gradient_boosting_model.pkl
+2026-02-15 09:02:55,376 - modules.model_training - INFO - Training linear_regression model
+2026-02-15 09:02:55,379 - modules.model_training - INFO - linear_regression trained - MAE: 0.00
+2026-02-15 09:02:55,380 - modules.model_training - INFO - Model saved: ../models/linear_regression_model.pkl
+2026-02-15 09:02:55,380 - modules.model_training - INFO - Model training completed in 0.21 seconds
+2026-02-15 09:02:55,628 - database - INFO - Model saved: random_forest for user 6991888e34b10b7e37645d1c
+2026-02-15 09:02:55,865 - database - INFO - Model saved: gradient_boosting for user 6991888e34b10b7e37645d1c
+2026-02-15 09:02:56,102 - database - INFO - Model saved: linear_regression for user 6991888e34b10b7e37645d1c
+2026-02-15 09:02:56,102 - __main__ - INFO - Models trained successfully for user 6991888e34b10b7e37645d1c: ['random_forest', 'gradient_boosting', 'linear_regression']
+2026-02-15 09:02:56,102 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:02:56] "POST /api/train HTTP/1.1" 200 -
+2026-02-15 09:02:56,339 - modules.forecasting - INFO - Generating 30-day forecast
+2026-02-15 09:02:56,359 - modules.forecasting - INFO - Forecast generated successfully
+2026-02-15 09:02:56,597 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: forecast
+2026-02-15 09:02:56,597 - __main__ - INFO - Forecast generated for user 6991888e34b10b7e37645d1c: 30 days using random_forest
+2026-02-15 09:02:56,598 - __main__ - ERROR - Error generating forecast: Object of type ndarray is not JSON serializable
+2026-02-15 09:02:56,600 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:02:56] "[35m[1mPOST /api/forecast HTTP/1.1[0m" 500 -
+2026-02-15 09:03:13,245 - werkzeug - INFO -  * Detected change in '/workspace/backend/app.py', reloading
+2026-02-15 09:03:13,744 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:03:24,936 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:03:24,952 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 09:03:24,952 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 09:03:24,953 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:03:28,695 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:03:28,701 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:03:28,701 - werkzeug - INFO -  * Debugger PIN: 361-281-079
+2026-02-15 09:03:41,232 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-15 09:03:41,721 - database - INFO - Database indexes created successfully
+2026-02-15 09:03:42,441 - auth - INFO - User logged in: testuser123
+2026-02-15 09:03:42,442 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:03:42] "POST /login HTTP/1.1" 200 -
+2026-02-15 09:03:42,667 - modules.data_collection - INFO - Importing sales data from ../data/uploads/sample_sales_data.csv
+2026-02-15 09:03:42,671 - modules.data_collection - INFO - Successfully imported 90 records
+2026-02-15 09:03:42,896 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: raw
+2026-02-15 09:03:42,896 - __main__ - INFO - Data uploaded successfully by user 6991888e34b10b7e37645d1c: sample_sales_data.csv
+2026-02-15 09:03:42,898 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:03:42] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 09:03:43,121 - modules.data_collection - INFO - Fetching weather data for New York from 2024-01-01 to 2024-12-31
+2026-02-15 09:03:43,123 - modules.data_collection - INFO - Fetched 366 weather records
+2026-02-15 09:03:43,123 - modules.data_collection - INFO - Fetching holiday data for US from 2024-01-01 to 2024-12-31
+2026-02-15 09:03:43,125 - modules.data_collection - INFO - Fetched 13 holiday records
+2026-02-15 09:03:43,125 - __main__ - INFO - External data fetched for user 6991888e34b10b7e37645d1c
+2026-02-15 09:03:43,132 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:03:43] "POST /api/external-data HTTP/1.1" 200 -
+2026-02-15 09:03:43,356 - modules.data_preprocessing - INFO - Starting data preprocessing
+2026-02-15 09:03:43,357 - modules.data_preprocessing - INFO - Missing values handled
+2026-02-15 09:03:43,360 - modules.data_preprocessing - INFO - Outliers capped in 3 columns
+2026-02-15 09:03:43,360 - modules.data_preprocessing - INFO - Outliers removed
+2026-02-15 09:03:43,361 - modules.data_preprocessing - INFO - Encoded 2 categorical columns
+2026-02-15 09:03:43,361 - modules.data_preprocessing - INFO - Categorical variables encoded
+2026-02-15 09:03:43,364 - modules.data_preprocessing - INFO - Scaled 2 numerical columns
+2026-02-15 09:03:43,364 - modules.data_preprocessing - INFO - Numerical features scaled
+2026-02-15 09:03:43,364 - modules.data_preprocessing - INFO - Time series formatting complete
+2026-02-15 09:03:43,365 - modules.data_preprocessing - INFO - Time-series format applied
+2026-02-15 09:03:43,365 - modules.data_preprocessing - INFO - Preprocessing complete. Final shape: (90, 6)
+2026-02-15 09:03:43,590 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: preprocessed
+2026-02-15 09:03:43,590 - __main__ - INFO - Data preprocessed successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 09:03:43,592 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:03:43] "POST /api/preprocess HTTP/1.1" 200 -
+2026-02-15 09:03:43,815 - modules.feature_engineering - INFO - Starting feature engineering
+2026-02-15 09:03:43,817 - modules.feature_engineering - INFO - Created 6 lagged features
+2026-02-15 09:03:43,817 - modules.feature_engineering - INFO - Lagged features created
+2026-02-15 09:03:43,819 - modules.feature_engineering - INFO - Created moving average features with windows: [3, 7, 14, 30]
+2026-02-15 09:03:43,819 - modules.feature_engineering - INFO - Moving average features created
+2026-02-15 09:03:43,824 - modules.feature_engineering - INFO - Date features created
+2026-02-15 09:03:43,824 - modules.feature_engineering - INFO - Date features created
+2026-02-15 09:03:43,828 - modules.feature_engineering - INFO - Weather features merged and created
+2026-02-15 09:03:43,828 - modules.feature_engineering - INFO - Weather features created
+2026-02-15 09:03:43,830 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 09:03:43,830 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 09:03:43,832 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 09:03:43,832 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 09:03:43,834 - modules.feature_engineering - INFO - Feature engineering complete. Total features: 58
+2026-02-15 09:03:44,505 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: features
+2026-02-15 09:03:44,505 - __main__ - INFO - Features engineered successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 09:03:44,509 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:03:44] "POST /api/engineer-features HTTP/1.1" 200 -
+2026-02-15 09:03:44,733 - modules.model_training - INFO - Starting model training for 3 models
+2026-02-15 09:03:44,737 - modules.model_training - INFO - Training random_forest model
+2026-02-15 09:03:44,844 - modules.model_training - INFO - random_forest trained - MAE: 0.32
+2026-02-15 09:03:44,858 - modules.model_training - INFO - Model saved: ../models/random_forest_model.pkl
+2026-02-15 09:03:44,858 - modules.model_training - INFO - Training gradient_boosting model
+2026-02-15 09:03:44,931 - modules.model_training - INFO - gradient_boosting trained - MAE: 0.26
+2026-02-15 09:03:44,934 - modules.model_training - INFO - Model saved: ../models/gradient_boosting_model.pkl
+2026-02-15 09:03:44,934 - modules.model_training - INFO - Training linear_regression model
+2026-02-15 09:03:44,938 - modules.model_training - INFO - linear_regression trained - MAE: 0.00
+2026-02-15 09:03:44,938 - modules.model_training - INFO - Model saved: ../models/linear_regression_model.pkl
+2026-02-15 09:03:44,939 - modules.model_training - INFO - Model training completed in 0.21 seconds
+2026-02-15 09:03:45,161 - database - INFO - Model saved: random_forest for user 6991888e34b10b7e37645d1c
+2026-02-15 09:03:45,384 - database - INFO - Model saved: gradient_boosting for user 6991888e34b10b7e37645d1c
+2026-02-15 09:03:45,606 - database - INFO - Model saved: linear_regression for user 6991888e34b10b7e37645d1c
+2026-02-15 09:03:45,606 - __main__ - INFO - Models trained successfully for user 6991888e34b10b7e37645d1c: ['random_forest', 'gradient_boosting', 'linear_regression']
+2026-02-15 09:03:45,607 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:03:45] "POST /api/train HTTP/1.1" 200 -
+2026-02-15 09:03:45,830 - modules.forecasting - INFO - Generating 30-day forecast
+2026-02-15 09:03:45,851 - modules.forecasting - INFO - Forecast generated successfully
+2026-02-15 09:03:46,078 - database - INFO - Data saved for user 6991888e34b10b7e37645d1c: forecast
+2026-02-15 09:03:46,079 - __main__ - INFO - Forecast generated for user 6991888e34b10b7e37645d1c: 30 days using random_forest
+2026-02-15 09:03:46,081 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:03:46] "POST /api/forecast HTTP/1.1" 200 -
+2026-02-15 09:03:46,304 - modules.model_evaluation - INFO - Evaluating 3 models
+2026-02-15 09:03:46,304 - modules.model_evaluation - INFO - random_forest - MAE: 8.36, R²: 0.791
+2026-02-15 09:03:46,304 - modules.model_evaluation - INFO - gradient_boosting - MAE: 14.97, R²: 0.796
+2026-02-15 09:03:46,304 - modules.model_evaluation - INFO - linear_regression - MAE: 13.83, R²: 0.895
+2026-02-15 09:03:46,305 - modules.model_evaluation - INFO - Best model: random_forest
+2026-02-15 09:03:46,305 - __main__ - INFO - Models evaluated successfully for user 6991888e34b10b7e37645d1c
+2026-02-15 09:03:46,306 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:03:46] "POST /api/evaluate HTTP/1.1" 200 -
+2026-02-15 09:03:46,529 - modules.insights - INFO - Generating actionable insights
+2026-02-15 09:03:46,537 - modules.insights - INFO - Insights generated successfully
+2026-02-15 09:03:46,537 - __main__ - INFO - Insights generated for user 6991888e34b10b7e37645d1c
+2026-02-15 09:03:46,538 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:03:46] "GET /api/insights HTTP/1.1" 200 -
+2026-02-15 09:03:47,004 - __main__ - INFO - Alerts configured for user 6991888e34b10b7e37645d1c: {'low_stock_threshold': 100, 'email_enabled': True, 'email_address': 'test@example.com', 'sms_enabled': False, 'phone_number': '', 'alert_frequency': 'daily'}
+2026-02-15 09:03:47,005 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:03:47] "POST /api/configure-alerts HTTP/1.1" 200 -
+2026-02-15 09:04:19,777 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:04:19] "GET /?_gl=1*171ijjn*_gcl_au*MTY2NjAyNzc0OS4xNzcxMTAyODA0LjE2ODI3NTcxODMuMTc3MTE0NDUwOC4xNzcxMTQ0NzY4*_ga*MjEzNjQ0NDkxNC4xNzcxMTAyNzYy*_ga_8NW18Q4WF2*czE3NzExNDQ0MDMkbzIkZzEkdDE3NzExNDQ4MzEkajYwJGwwJGgzMzU5MzcwNjU.&password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:04:21,723 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:04:21] "GET /static/css/landing.css HTTP/1.1" 200 -
+2026-02-15 09:04:33,541 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:04:33] "GET /login HTTP/1.1" 200 -
+2026-02-15 09:04:35,104 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:04:35] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-02-15 09:04:49,763 - auth - INFO - User logged in: abhishek10012
+2026-02-15 09:04:49,764 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:04:49] "POST /login HTTP/1.1" 200 -
+2026-02-15 09:04:52,956 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:04:52] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 09:04:54,949 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:04:54] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-15 09:04:55,111 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:04:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-15 09:07:46,603 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:07:46] "GET / HTTP/1.1" 200 -
+2026-02-15 09:07:50,319 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:07:50] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-02-15 09:07:50,324 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:07:50] "GET /login?next=/dashboard HTTP/1.1" 200 -
+2026-02-15 09:07:50,345 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:07:50] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-02-15 09:07:50,583 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:07:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-15 09:08:05,733 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:08:05] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-15 09:08:10,880 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:08:10] "GET /register HTTP/1.1" 200 -
+2026-02-15 09:08:10,897 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:08:10] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-02-15 09:08:48,988 - database - INFO - User created successfully: testuser
+2026-02-15 09:08:48,988 - auth - INFO - New user registered: testuser
+2026-02-15 09:08:48,988 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:08:48] "POST /register HTTP/1.1" 200 -
+2026-02-15 09:08:50,496 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:08:50] "GET /login HTTP/1.1" 200 -
+2026-02-15 09:08:50,504 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:08:50] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-02-15 09:09:01,699 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:09:01] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-02-15 09:10:55,602 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:10:55,618 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 09:10:55,618 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 09:10:55,618 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:10:59,548 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:10:59,554 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:10:59,554 - werkzeug - INFO -  * Debugger PIN: 662-902-743
+2026-02-15 09:11:06,040 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:11:06] "GET /register HTTP/1.1" 200 -
+2026-02-15 09:11:06,055 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:11:06] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-02-15 09:12:04,848 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-15 09:12:05,338 - database - INFO - Database indexes created successfully
+2026-02-15 09:12:06,309 - database - INFO - User created successfully: demouser
+2026-02-15 09:12:06,309 - auth - INFO - New user registered: demouser
+2026-02-15 09:12:06,310 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:06] "POST /register HTTP/1.1" 200 -
+2026-02-15 09:12:07,818 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:07] "GET /login HTTP/1.1" 200 -
+2026-02-15 09:12:07,833 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:07] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-02-15 09:12:11,271 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:11] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-02-15 09:12:11,276 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:11] "GET /login?next=/dashboard HTTP/1.1" 200 -
+2026-02-15 09:12:11,288 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:11] "[36mGET /static/css/auth.css HTTP/1.1[0m" 304 -
+2026-02-15 09:12:28,967 - auth - INFO - User logged in: demouser
+2026-02-15 09:12:28,968 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:28] "POST /login HTTP/1.1" 200 -
+2026-02-15 09:12:30,209 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:30] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 09:12:30,219 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:30] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-15 09:12:30,225 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:30] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-15 09:12:30,557 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:30] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:12:30,791 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:30] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 09:12:31,028 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:31] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:12:34,540 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:34] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 09:12:34,551 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 09:12:34,552 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-02-15 09:12:34,878 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:34] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:12:35,111 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:35] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 09:12:35,346 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:35] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:12:43,791 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:43] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:12:44,023 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:44] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 09:12:44,258 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:44] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:12:50,691 - modules.insights - INFO - Report generated: ../reports/forecast_report_20260215_091250.txt
+2026-02-15 09:12:50,691 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:12:50] "POST /api/export-report HTTP/1.1" 200 -
+2026-02-15 09:13:44,309 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:13:44] "[33mGET /api/alerts HTTP/1.1[0m" 404 -
+2026-02-15 09:14:11,523 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:14:11] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 09:14:12,948 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:14:12] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-15 09:14:13,447 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:14:13] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-15 09:14:15,523 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:14:15] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:14:17,556 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:14:17] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 09:14:19,336 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:14:19] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:14:22,661 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:14:22] "[31m[1mPOST /api/preprocess HTTP/1.1[0m" 400 -
+2026-02-15 09:14:32,781 - modules.insights - INFO - Report generated: ../reports/forecast_report_20260215_091432.txt
+2026-02-15 09:14:32,782 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:14:32] "POST /api/export-report HTTP/1.1" 200 -
+2026-02-15 09:15:09,355 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:15:09] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:15:11,144 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:15:11] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 09:15:13,141 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:15:13] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:15:16,348 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:15:16] "[31m[1mPOST /api/train HTTP/1.1[0m" 400 -
+2026-02-15 09:15:25,681 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:15:25] "[31m[1mPOST /api/engineer-features HTTP/1.1[0m" 400 -
+2026-02-15 09:15:34,062 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:15:34] "[31m[1mPOST /api/preprocess HTTP/1.1[0m" 400 -
+2026-02-15 09:18:27,168 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:18:27] "GET /api/health HTTP/1.1" 200 -
+2026-02-15 09:18:31,233 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:18:31] "[33mGET /data-collection HTTP/1.1[0m" 404 -
+2026-02-15 09:18:37,599 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:18:37] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 09:18:37,612 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:18:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 09:18:37,613 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:18:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-02-15 09:18:38,007 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:18:38] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:18:38,243 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:18:38] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 09:18:38,480 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:18:38] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:22:45,870 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:22:45] "[32mGET /dashboard?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:22:47,059 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:22:47] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 09:22:48,846 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:22:48] "GET /static/css/style.css?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:22:48,893 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:22:48] "GET /static/js/app.js?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:22:49,605 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:22:49] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-15 09:22:49,742 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:22:49] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-15 09:22:51,898 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:22:51] "[32mGET /api/dashboard-data?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:22:53,062 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:22:53] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:22:55,153 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:22:55] "[32mGET /api/historical-chart-data?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:22:56,319 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:22:56] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 09:22:58,369 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:22:58] "[32mGET /api/forecast-chart-data?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:22:59,404 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:22:59] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:23:20,425 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:23:20] "[31m[1mGET /api/upload?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 405 -
+2026-02-15 09:23:40,750 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:23:40] "[32mGET /dashboard?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:23:41,919 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:23:41] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 09:23:43,716 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:23:43] "GET /static/js/app.js?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:23:44,002 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:23:44] "GET /static/css/style.css?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:23:44,661 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:23:44] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-15 09:23:44,950 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:23:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-15 09:23:47,022 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:23:47] "[32mGET /api/dashboard-data?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:23:48,177 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:23:48] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:23:50,154 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:23:50] "[32mGET /api/historical-chart-data?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:23:51,283 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:23:51] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 09:23:52,849 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:23:52] "[32mGET /api/forecast-chart-data?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:23:53,908 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:23:53] "[31m[1mGET /api/upload?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 405 -
+2026-02-15 09:23:54,002 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:23:54] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:25:07,547 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:25:07] "[32mPOST /api/upload HTTP/1.1[0m" 302 -
+2026-02-15 09:25:55,895 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:25:55] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 09:25:55,906 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:25:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 09:25:55,907 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:25:55] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-15 09:25:56,299 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:25:56] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:25:56,534 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:25:56] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 09:25:56,771 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:25:56] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:26:25,121 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:26:25] "[33mPOST /api/login HTTP/1.1[0m" 404 -
+2026-02-15 09:26:56,658 - auth - INFO - User logged in: demouser
+2026-02-15 09:26:56,658 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:26:56] "POST /login HTTP/1.1" 200 -
+2026-02-15 09:26:56,893 - modules.data_collection - INFO - Importing sales data from ../data/uploads/demo_sales_data.xlsx
+2026-02-15 09:26:57,122 - modules.data_collection - INFO - Successfully imported 1736 records
+2026-02-15 09:26:58,358 - database - INFO - Data saved for user 69918de62b789f948c61c825: raw
+2026-02-15 09:26:58,359 - __main__ - INFO - Data uploaded successfully by user 69918de62b789f948c61c825: demo_sales_data.xlsx
+2026-02-15 09:26:58,361 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:26:58] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 09:26:58,593 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:26:58] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:27:04,598 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:27:04] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 09:27:04,612 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:27:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 09:27:04,613 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:27:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-02-15 09:27:04,937 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:27:04] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:27:05,173 - __main__ - ERROR - Error getting chart data: "Label(s) ['demand', 'sales'] do not exist"
+2026-02-15 09:27:05,173 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:27:05] "[35m[1mGET /api/historical-chart-data HTTP/1.1[0m" 500 -
+2026-02-15 09:27:05,409 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:27:05] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:27:43,007 - auth - INFO - User logged in: demouser
+2026-02-15 09:27:43,008 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:27:43] "POST /login HTTP/1.1" 200 -
+2026-02-15 09:27:43,243 - modules.data_collection - INFO - Importing sales data from ../data/uploads/demo_sales_data.xlsx
+2026-02-15 09:27:43,456 - modules.data_collection - INFO - Successfully imported 1736 records
+2026-02-15 09:27:44,643 - database - INFO - Data saved for user 69918de62b789f948c61c825: raw
+2026-02-15 09:27:44,644 - __main__ - INFO - Data uploaded successfully by user 69918de62b789f948c61c825: demo_sales_data.xlsx
+2026-02-15 09:27:44,646 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:27:44] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 09:27:44,881 - modules.data_collection - INFO - Importing sales data from ../data/uploads/demo_sales_data.xlsx
+2026-02-15 09:27:45,048 - modules.data_collection - INFO - Successfully imported 1736 records
+2026-02-15 09:27:45,344 - database - INFO - Data saved for user 69918de62b789f948c61c825: raw
+2026-02-15 09:27:45,345 - __main__ - INFO - Data uploaded successfully by user 69918de62b789f948c61c825: demo_sales_data.xlsx
+2026-02-15 09:27:45,347 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:27:45] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 09:28:27,849 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:28:27] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 09:28:27,862 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:28:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-02-15 09:28:27,863 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:28:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-02-15 09:28:28,206 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:28:28] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:28:28,448 - __main__ - ERROR - Error getting chart data: "Label(s) ['demand', 'sales'] do not exist"
+2026-02-15 09:28:28,449 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:28:28] "[35m[1mGET /api/historical-chart-data HTTP/1.1[0m" 500 -
+2026-02-15 09:28:28,691 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:28:28] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:29:03,245 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:29:03] "[32mGET /dashboard?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:29:04,491 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:29:04] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 09:29:05,978 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:29:05] "GET /static/js/app.js?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:29:06,825 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:29:06] "GET /static/css/style.css?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:29:06,879 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:29:06] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-15 09:29:07,558 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:29:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-15 09:29:09,177 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:29:09] "[32mGET /api/dashboard-data?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:29:10,118 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:29:10] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:29:12,138 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:29:12] "[32mGET /api/historical-chart-data?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:29:13,061 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:29:13] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 09:29:15,086 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:29:15] "[32mGET /api/forecast-chart-data?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:29:16,241 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:29:16] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:29:23,005 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:29:23] "[31m[1mGET /api/upload?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 405 -
+2026-02-15 09:29:40,553 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:29:40] "[31m[1mGET /api/upload?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 405 -
+2026-02-15 09:30:23,454 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:30:23] "[32mGET /dashboard?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:30:24,375 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:30:24] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 09:30:26,420 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:30:26] "GET /static/css/style.css?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:30:26,763 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:30:26] "GET /static/js/app.js?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:30:27,143 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:30:27] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-15 09:30:27,461 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:30:27] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-15 09:30:29,364 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:30:29] "[32mGET /api/dashboard-data?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:30:30,307 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:30:30] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:30:32,446 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:30:32] "[32mGET /api/historical-chart-data?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:30:33,603 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:30:33] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 09:30:35,610 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:30:35] "[32mGET /api/forecast-chart-data?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:30:36,527 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:30:36] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:30:47,438 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:30:47] "[31m[1mGET /api/upload?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 405 -
+2026-02-15 09:31:42,883 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:31:42] "[31m[1mHEAD /api/upload HTTP/1.1[0m" 405 -
+2026-02-15 09:31:46,321 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:31:46] "[32mPOST /api/upload HTTP/1.1[0m" 302 -
+2026-02-15 09:32:20,217 - werkzeug - INFO -  * Detected change in '/workspace/backend/app.py', reloading
+2026-02-15 09:32:20,885 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:32:29,596 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:32:29,611 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 09:32:29,612 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 09:32:29,612 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:32:33,475 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:32:33,481 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:32:33,481 - werkzeug - INFO -  * Debugger PIN: 517-258-245
+2026-02-15 09:32:42,652 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-15 09:32:43,163 - database - INFO - Database indexes created successfully
+2026-02-15 09:32:43,898 - auth - INFO - User logged in: demouser
+2026-02-15 09:32:43,900 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:32:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-15 09:32:43,902 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:32:43] "[31m[1mPOST /dashboard HTTP/1.1[0m" 405 -
+2026-02-15 09:32:47,722 - modules.data_collection - INFO - Importing sales data from ../data/uploads/demo_sales_data.xlsx
+2026-02-15 09:32:47,963 - modules.data_collection - INFO - Successfully imported 1736 records
+2026-02-15 09:32:49,108 - database - INFO - Data saved for user 69918de62b789f948c61c825: raw
+2026-02-15 09:32:49,109 - __main__ - INFO - Data uploaded successfully by user 69918de62b789f948c61c825: demo_sales_data.xlsx
+2026-02-15 09:32:49,111 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:32:49] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 09:32:58,557 - werkzeug - INFO -  * Detected change in '/workspace/backend/app.py', reloading
+2026-02-15 09:32:59,185 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:33:02,948 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:33:02,953 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:33:02,954 - werkzeug - INFO -  * Debugger PIN: 517-258-245
+2026-02-15 09:33:54,362 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:33:54,378 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 09:33:54,378 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 09:33:54,378 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:33:58,251 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:33:58,256 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:33:58,257 - werkzeug - INFO -  * Debugger PIN: 440-115-595
+2026-02-15 09:34:15,435 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:34:15] "[32mGET /dashboard?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:34:16,350 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:34:16] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 09:34:20,408 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:34:20] "GET /static/css/style.css?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:34:20,769 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:34:20] "GET /static/js/app.js?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:34:21,084 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:34:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-15 09:34:21,702 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:34:21] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-15 09:34:23,580 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:34:23] "[32mGET /api/dashboard-data?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:34:24,738 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:34:24] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:34:26,888 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:34:26] "HEAD / HTTP/1.1" 200 -
+2026-02-15 09:34:26,954 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:34:26] "[32mGET /api/historical-chart-data?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:34:28,106 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:34:28] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 09:34:30,246 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:34:30] "[32mGET /api/forecast-chart-data?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:34:31,407 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:34:31] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:34:33,607 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-15 09:34:34,095 - database - INFO - Database indexes created successfully
+2026-02-15 09:34:34,762 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:34:34] "[31m[1mGET /api/upload?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 405 -
+2026-02-15 09:34:34,837 - auth - INFO - User logged in: demouser
+2026-02-15 09:34:34,837 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:34:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-02-15 09:34:34,839 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:34:34] "[31m[1mPOST /dashboard HTTP/1.1[0m" 405 -
+2026-02-15 09:34:40,567 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:34:40] "[32mHEAD /dashboard HTTP/1.1[0m" 302 -
+2026-02-15 09:34:50,764 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:34:50] "GET /?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:34:51,897 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:34:51] "GET /?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:34:53,905 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:34:53] "GET /static/css/landing.css HTTP/1.1" 200 -
+2026-02-15 09:34:57,143 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:34:57] "GET /login HTTP/1.1" 200 -
+2026-02-15 09:34:59,133 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:34:59] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-02-15 09:35:20,247 - auth - INFO - User logged in: abhishek10012
+2026-02-15 09:35:20,248 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:35:20] "POST /login HTTP/1.1" 200 -
+2026-02-15 09:35:23,049 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:35:23] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 09:35:24,172 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:35:24] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-15 09:35:24,858 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:35:24] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-15 09:35:27,112 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:35:27] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:35:28,908 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:35:28] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 09:35:30,768 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:35:30] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:35:32,573 - modules.data_collection - INFO - Importing sales data from ../data/uploads/demo_sales_data.xlsx
+2026-02-15 09:35:32,800 - modules.data_collection - INFO - Successfully imported 1736 records
+2026-02-15 09:35:33,991 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: raw
+2026-02-15 09:35:33,992 - __main__ - INFO - Data uploaded successfully by user 6990ef1fe4dd3668d3dadc0a: demo_sales_data.xlsx
+2026-02-15 09:35:33,994 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:35:33] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 09:35:35,741 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:35:35] "GET /?hideControls=true&password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:35:36,846 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:35:36] "GET /static/css/landing.css HTTP/1.1" 200 -
+2026-02-15 09:35:37,454 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:35:37] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:35:38,620 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:35:38] "GET /static/css/landing.css HTTP/1.1" 200 -
+2026-02-15 09:35:39,182 - __main__ - ERROR - Error getting chart data: "Label(s) ['demand', 'sales'] do not exist"
+2026-02-15 09:35:39,183 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:35:39] "[35m[1mGET /api/historical-chart-data HTTP/1.1[0m" 500 -
+2026-02-15 09:35:40,979 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:35:40] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:35:41,956 - modules.data_preprocessing - INFO - Starting data preprocessing
+2026-02-15 09:35:41,957 - modules.data_preprocessing - INFO - Missing values handled
+2026-02-15 09:35:41,962 - modules.data_preprocessing - INFO - Outliers capped in 4 columns
+2026-02-15 09:35:41,962 - modules.data_preprocessing - INFO - Outliers removed
+2026-02-15 09:35:41,965 - modules.data_preprocessing - INFO - Encoded 7 categorical columns
+2026-02-15 09:35:41,965 - modules.data_preprocessing - INFO - Categorical variables encoded
+2026-02-15 09:35:41,968 - modules.data_preprocessing - INFO - Scaled 3 numerical columns
+2026-02-15 09:35:41,968 - modules.data_preprocessing - INFO - Numerical features scaled
+2026-02-15 09:35:41,971 - modules.data_preprocessing - INFO - Time series formatting complete
+2026-02-15 09:35:41,971 - modules.data_preprocessing - INFO - Time-series format applied
+2026-02-15 09:35:41,971 - modules.data_preprocessing - INFO - Preprocessing complete. Final shape: (1736, 13)
+2026-02-15 09:35:43,194 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: preprocessed
+2026-02-15 09:35:43,195 - __main__ - INFO - Data preprocessed successfully for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:35:43,197 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:35:43] "POST /api/preprocess HTTP/1.1" 200 -
+2026-02-15 09:35:48,718 - modules.feature_engineering - INFO - Starting feature engineering
+2026-02-15 09:35:48,720 - modules.feature_engineering - INFO - Created 6 lagged features
+2026-02-15 09:35:48,720 - modules.feature_engineering - INFO - Lagged features created
+2026-02-15 09:35:48,722 - modules.feature_engineering - INFO - Created moving average features with windows: [3, 7, 14, 30]
+2026-02-15 09:35:48,722 - modules.feature_engineering - INFO - Moving average features created
+2026-02-15 09:35:48,728 - modules.feature_engineering - INFO - Date features created
+2026-02-15 09:35:48,728 - modules.feature_engineering - INFO - Date features created
+2026-02-15 09:35:48,730 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 09:35:48,730 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 09:35:48,732 - modules.feature_engineering - INFO - Feature engineering complete. Total features: 47
+2026-02-15 09:35:50,460 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: features
+2026-02-15 09:35:50,461 - __main__ - INFO - Features engineered successfully for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:35:50,465 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:35:50] "POST /api/engineer-features HTTP/1.1" 200 -
+2026-02-15 09:35:59,327 - modules.model_training - INFO - Starting model training for 4 models
+2026-02-15 09:35:59,331 - modules.model_training - INFO - Training random_forest model
+2026-02-15 09:35:59,596 - modules.model_training - INFO - random_forest trained - MAE: 0.00
+2026-02-15 09:35:59,615 - modules.model_training - INFO - Model saved: ../models/random_forest_model.pkl
+2026-02-15 09:35:59,615 - modules.model_training - INFO - Training gradient_boosting model
+2026-02-15 09:36:00,227 - modules.model_training - INFO - gradient_boosting trained - MAE: 0.00
+2026-02-15 09:36:00,230 - modules.model_training - INFO - Model saved: ../models/gradient_boosting_model.pkl
+2026-02-15 09:36:00,230 - modules.model_training - INFO - Training linear_regression model
+2026-02-15 09:36:00,235 - modules.model_training - INFO - linear_regression trained - MAE: 0.00
+2026-02-15 09:36:00,236 - modules.model_training - INFO - Model saved: ../models/linear_regression_model.pkl
+2026-02-15 09:36:00,236 - modules.model_training - INFO - Training arima model
+2026-02-15 09:36:00,236 - modules.model_training - INFO - Model training completed in 0.91 seconds
+2026-02-15 09:36:00,469 - database - INFO - Model saved: random_forest for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:36:00,709 - database - INFO - Model saved: gradient_boosting for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:36:00,940 - database - INFO - Model saved: linear_regression for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:36:00,941 - __main__ - INFO - Models trained successfully for user 6990ef1fe4dd3668d3dadc0a: ['random_forest', 'gradient_boosting', 'linear_regression']
+2026-02-15 09:36:00,941 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:36:00] "POST /api/train HTTP/1.1" 200 -
+2026-02-15 09:36:06,807 - modules.forecasting - INFO - Generating 30-day forecast
+2026-02-15 09:36:06,838 - modules.forecasting - INFO - Forecast generated successfully
+2026-02-15 09:36:07,071 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: forecast
+2026-02-15 09:36:07,071 - __main__ - INFO - Forecast generated for user 6990ef1fe4dd3668d3dadc0a: 30 days using random_forest
+2026-02-15 09:36:07,073 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:36:07] "POST /api/forecast HTTP/1.1" 200 -
+2026-02-15 09:36:14,454 - modules.forecasting - INFO - Generating 30-day forecast
+2026-02-15 09:36:14,462 - modules.forecasting - INFO - Forecast generated successfully
+2026-02-15 09:36:14,694 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: forecast
+2026-02-15 09:36:14,694 - __main__ - INFO - Forecast generated for user 6990ef1fe4dd3668d3dadc0a: 30 days using gradient_boosting
+2026-02-15 09:36:14,696 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:36:14] "POST /api/forecast HTTP/1.1" 200 -
+2026-02-15 09:36:21,551 - modules.model_evaluation - INFO - Evaluating 3 models
+2026-02-15 09:36:21,551 - modules.model_evaluation - INFO - random_forest - MAE: 11.09, R²: 0.926
+2026-02-15 09:36:21,551 - modules.model_evaluation - INFO - gradient_boosting - MAE: 12.85, R²: 0.943
+2026-02-15 09:36:21,551 - modules.model_evaluation - INFO - linear_regression - MAE: 9.48, R²: 0.897
+2026-02-15 09:36:21,552 - modules.model_evaluation - INFO - Best model: linear_regression
+2026-02-15 09:36:21,552 - __main__ - INFO - Models evaluated successfully for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:36:21,553 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:36:21] "POST /api/evaluate HTTP/1.1" 200 -
+2026-02-15 09:36:27,663 - modules.insights - INFO - Generating actionable insights
+2026-02-15 09:36:27,664 - modules.insights - ERROR - Error in ABC analysis: "Label(s) ['sales'] do not exist"
+2026-02-15 09:36:27,666 - modules.insights - INFO - Insights generated successfully
+2026-02-15 09:36:27,666 - __main__ - INFO - Insights generated for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:36:27,667 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:36:27] "GET /api/insights HTTP/1.1" 200 -
+2026-02-15 09:36:35,106 - modules.insights - INFO - Report generated: ../reports/forecast_report_20260215_093635.txt
+2026-02-15 09:36:35,106 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:36:35] "POST /api/export-report HTTP/1.1" 200 -
+2026-02-15 09:38:55,495 - modules.forecasting - INFO - Generating 64-day forecast
+2026-02-15 09:38:55,502 - modules.forecasting - INFO - Forecast generated successfully
+2026-02-15 09:38:55,743 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: forecast
+2026-02-15 09:38:55,744 - __main__ - INFO - Forecast generated for user 6990ef1fe4dd3668d3dadc0a: 64 days using gradient_boosting
+2026-02-15 09:38:55,746 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:38:55] "POST /api/forecast HTTP/1.1" 200 -
+2026-02-15 09:39:02,004 - werkzeug - INFO -  * Detected change in '/workspace/backend/app.py', reloading
+2026-02-15 09:39:02,608 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:39:06,582 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:39:06,588 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:39:06,588 - werkzeug - INFO -  * Debugger PIN: 440-115-595
+2026-02-15 09:39:28,669 - __main__ - INFO - Alerts configured for user 6990ef1fe4dd3668d3dadc0a: {'low_stock_threshold': 100, 'email_enabled': True, 'email_address': 'trivediabhishek267@gmail.com', 'sms_enabled': False, 'phone_number': '', 'alert_frequency': 'daily'}
+2026-02-15 09:39:28,670 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:39:28] "POST /api/configure-alerts HTTP/1.1" 200 -
+2026-02-15 09:39:29,757 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:39:29] "[31m[1mPOST /api/send-alerts HTTP/1.1[0m" 400 -
+2026-02-15 09:41:13,940 - werkzeug - INFO -  * Detected change in '/workspace/backend/auth.py', reloading
+2026-02-15 09:41:14,514 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:41:18,469 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:41:18,474 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:41:18,475 - werkzeug - INFO -  * Debugger PIN: 440-115-595
+2026-02-15 09:41:26,501 - werkzeug - INFO -  * Detected change in '/workspace/backend/database.py', reloading
+2026-02-15 09:41:27,089 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:41:31,276 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:41:31,282 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:41:31,282 - werkzeug - INFO -  * Debugger PIN: 440-115-595
+2026-02-15 09:41:53,955 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:41:53,971 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 09:41:53,971 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 09:41:53,971 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:41:57,793 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:41:57,799 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:41:57,799 - werkzeug - INFO -  * Debugger PIN: 131-718-421
+2026-02-15 09:43:38,496 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:43:38] "HEAD / HTTP/1.1" 200 -
+2026-02-15 09:44:58,026 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:44:58] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 09:44:59,490 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:44:59] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-15 09:44:59,934 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:44:59] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-15 09:45:02,343 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:45:02] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:45:04,364 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:45:04] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 09:45:06,362 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:45:06] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:45:16,579 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:45:16] "[31m[1mPOST /api/forecast HTTP/1.1[0m" 400 -
+2026-02-15 09:45:27,838 - modules.data_collection - INFO - Importing sales data from ../data/uploads/demo_sales_data.xlsx
+2026-02-15 09:45:28,067 - modules.data_collection - INFO - Successfully imported 1736 records
+2026-02-15 09:45:29,476 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: raw
+2026-02-15 09:45:29,477 - __main__ - INFO - Data uploaded successfully by user 6990ef1fe4dd3668d3dadc0a: demo_sales_data.xlsx
+2026-02-15 09:45:29,479 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:45:29] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 09:45:32,962 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:45:32] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:45:35,288 - modules.data_collection - INFO - Fetching weather data for New York from 2024-01-01 to 2024-12-31
+2026-02-15 09:45:35,290 - modules.data_collection - INFO - Fetched 366 weather records
+2026-02-15 09:45:35,290 - modules.data_collection - INFO - Fetching holiday data for US from 2024-01-01 to 2024-12-31
+2026-02-15 09:45:35,292 - modules.data_collection - INFO - Fetched 13 holiday records
+2026-02-15 09:45:35,292 - __main__ - INFO - External data fetched for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:45:35,299 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:45:35] "POST /api/external-data HTTP/1.1" 200 -
+2026-02-15 09:45:36,659 - __main__ - ERROR - Error getting chart data: "Label(s) ['demand', 'sales'] do not exist"
+2026-02-15 09:45:36,659 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:45:36] "[35m[1mGET /api/historical-chart-data HTTP/1.1[0m" 500 -
+2026-02-15 09:45:38,488 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:45:38] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:45:40,148 - modules.data_collection - INFO - Fetching weather data for New York from 2024-01-01 to 2024-12-31
+2026-02-15 09:45:40,150 - modules.data_collection - INFO - Fetched 366 weather records
+2026-02-15 09:45:40,150 - modules.data_collection - INFO - Fetching holiday data for US from 2024-01-01 to 2024-12-31
+2026-02-15 09:45:40,152 - modules.data_collection - INFO - Fetched 13 holiday records
+2026-02-15 09:45:40,152 - __main__ - INFO - External data fetched for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:45:40,159 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:45:40] "POST /api/external-data HTTP/1.1" 200 -
+2026-02-15 09:45:48,762 - modules.data_preprocessing - INFO - Starting data preprocessing
+2026-02-15 09:45:48,763 - modules.data_preprocessing - INFO - Missing values handled
+2026-02-15 09:45:48,767 - modules.data_preprocessing - INFO - Outliers capped in 4 columns
+2026-02-15 09:45:48,767 - modules.data_preprocessing - INFO - Outliers removed
+2026-02-15 09:45:48,770 - modules.data_preprocessing - INFO - Encoded 7 categorical columns
+2026-02-15 09:45:48,770 - modules.data_preprocessing - INFO - Categorical variables encoded
+2026-02-15 09:45:48,773 - modules.data_preprocessing - INFO - Scaled 3 numerical columns
+2026-02-15 09:45:48,773 - modules.data_preprocessing - INFO - Numerical features scaled
+2026-02-15 09:45:48,776 - modules.data_preprocessing - INFO - Time series formatting complete
+2026-02-15 09:45:48,776 - modules.data_preprocessing - INFO - Time-series format applied
+2026-02-15 09:45:48,776 - modules.data_preprocessing - INFO - Preprocessing complete. Final shape: (1736, 13)
+2026-02-15 09:45:49,948 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: preprocessed
+2026-02-15 09:45:49,948 - __main__ - INFO - Data preprocessed successfully for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:45:49,950 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:45:49] "POST /api/preprocess HTTP/1.1" 200 -
+2026-02-15 09:45:54,255 - modules.feature_engineering - INFO - Starting feature engineering
+2026-02-15 09:45:54,257 - modules.feature_engineering - INFO - Created 6 lagged features
+2026-02-15 09:45:54,257 - modules.feature_engineering - INFO - Lagged features created
+2026-02-15 09:45:54,260 - modules.feature_engineering - INFO - Created moving average features with windows: [3, 7, 14, 30]
+2026-02-15 09:45:54,260 - modules.feature_engineering - INFO - Moving average features created
+2026-02-15 09:45:54,316 - modules.feature_engineering - INFO - Date features created
+2026-02-15 09:45:54,316 - modules.feature_engineering - INFO - Date features created
+2026-02-15 09:45:54,319 - modules.feature_engineering - INFO - Weather features merged and created
+2026-02-15 09:45:54,320 - modules.feature_engineering - INFO - Weather features created
+2026-02-15 09:45:54,322 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 09:45:54,322 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 09:45:54,324 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 09:45:54,324 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 09:45:54,327 - modules.feature_engineering - INFO - Feature engineering complete. Total features: 62
+2026-02-15 09:45:56,317 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: features
+2026-02-15 09:45:56,319 - __main__ - INFO - Features engineered successfully for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:45:56,323 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:45:56] "POST /api/engineer-features HTTP/1.1" 200 -
+2026-02-15 09:46:05,845 - modules.model_training - INFO - Starting model training for 4 models
+2026-02-15 09:46:05,850 - modules.model_training - INFO - Training random_forest model
+2026-02-15 09:46:06,106 - modules.model_training - INFO - random_forest trained - MAE: 0.00
+2026-02-15 09:46:06,120 - modules.model_training - INFO - Model saved: ../models/random_forest_model.pkl
+2026-02-15 09:46:06,120 - modules.model_training - INFO - Training gradient_boosting model
+2026-02-15 09:46:06,685 - modules.model_training - INFO - gradient_boosting trained - MAE: 0.00
+2026-02-15 09:46:06,688 - modules.model_training - INFO - Model saved: ../models/gradient_boosting_model.pkl
+2026-02-15 09:46:06,688 - modules.model_training - INFO - Training linear_regression model
+2026-02-15 09:46:06,694 - modules.model_training - INFO - linear_regression trained - MAE: 0.00
+2026-02-15 09:46:06,694 - modules.model_training - INFO - Model saved: ../models/linear_regression_model.pkl
+2026-02-15 09:46:06,694 - modules.model_training - INFO - Training arima model
+2026-02-15 09:46:06,694 - modules.model_training - INFO - Model training completed in 0.85 seconds
+2026-02-15 09:46:06,925 - database - INFO - Model saved: random_forest for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:46:07,156 - database - INFO - Model saved: gradient_boosting for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:46:07,387 - database - INFO - Model saved: linear_regression for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:46:07,387 - __main__ - INFO - Models trained successfully for user 6990ef1fe4dd3668d3dadc0a: ['random_forest', 'gradient_boosting', 'linear_regression']
+2026-02-15 09:46:07,387 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:46:07] "POST /api/train HTTP/1.1" 200 -
+2026-02-15 09:46:11,276 - modules.forecasting - INFO - Generating 30-day forecast
+2026-02-15 09:46:11,306 - modules.forecasting - INFO - Forecast generated successfully
+2026-02-15 09:46:11,539 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: forecast
+2026-02-15 09:46:11,540 - __main__ - INFO - Forecast generated for user 6990ef1fe4dd3668d3dadc0a: 30 days using random_forest
+2026-02-15 09:46:11,542 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:46:11] "POST /api/forecast HTTP/1.1" 200 -
+2026-02-15 09:46:18,856 - modules.model_evaluation - INFO - Evaluating 3 models
+2026-02-15 09:46:18,856 - modules.model_evaluation - INFO - random_forest - MAE: 10.58, R²: 0.747
+2026-02-15 09:46:18,856 - modules.model_evaluation - INFO - gradient_boosting - MAE: 9.41, R²: 0.936
+2026-02-15 09:46:18,856 - modules.model_evaluation - INFO - linear_regression - MAE: 6.44, R²: 0.909
+2026-02-15 09:46:18,857 - modules.model_evaluation - INFO - Best model: linear_regression
+2026-02-15 09:46:18,858 - __main__ - INFO - Models evaluated successfully for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:46:18,858 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:46:18] "POST /api/evaluate HTTP/1.1" 200 -
+2026-02-15 09:46:24,124 - modules.insights - INFO - Generating actionable insights
+2026-02-15 09:46:24,125 - modules.insights - ERROR - Error in ABC analysis: "Label(s) ['sales'] do not exist"
+2026-02-15 09:46:24,127 - modules.insights - INFO - Insights generated successfully
+2026-02-15 09:46:24,127 - __main__ - INFO - Insights generated for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:46:24,127 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:46:24] "GET /api/insights HTTP/1.1" 200 -
+2026-02-15 09:49:08,023 - werkzeug - INFO -  * Detected change in '/workspace/backend/modules/data_collection.py', reloading
+2026-02-15 09:49:08,622 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:49:12,573 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:49:12,578 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:49:12,579 - werkzeug - INFO -  * Debugger PIN: 131-718-421
+2026-02-15 09:50:03,194 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:50:03,209 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 09:50:03,209 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 09:50:03,210 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:50:07,190 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:50:07,196 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:50:07,196 - werkzeug - INFO -  * Debugger PIN: 120-408-987
+2026-02-15 09:50:27,634 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:50:27] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 09:50:28,980 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:50:28] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-15 09:50:29,600 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:50:29] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-15 09:50:31,857 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:50:31] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:50:33,679 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:50:33] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 09:50:35,158 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:50:35] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:50:40,092 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:50:40] "[31m[1mGET /api/upload?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 405 -
+2026-02-15 09:50:49,998 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:50:49] "[32mGET /logout?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1[0m" 302 -
+2026-02-15 09:50:51,017 - auth - INFO - User logged out: abhishek10012
+2026-02-15 09:50:51,018 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:50:51] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-02-15 09:50:53,204 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:50:53] "GET /?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:50:53,452 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:50:53] "GET /?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:50:55,136 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:50:55] "GET /static/css/landing.css HTTP/1.1" 200 -
+2026-02-15 09:51:03,085 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:03] "GET /register HTTP/1.1" 200 -
+2026-02-15 09:51:04,737 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:04] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-02-15 09:51:07,705 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:07] "GET /?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:51:09,356 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:09] "GET /static/css/landing.css HTTP/1.1" 200 -
+2026-02-15 09:51:12,763 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:12] "GET /login HTTP/1.1" 200 -
+2026-02-15 09:51:14,448 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:14] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-02-15 09:51:18,171 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:18] "GET /?hideControls=true&password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 09:51:19,712 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:19] "GET /static/css/landing.css HTTP/1.1" 200 -
+2026-02-15 09:51:29,731 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-15 09:51:30,219 - database - INFO - Database indexes created successfully
+2026-02-15 09:51:30,722 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:30] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-02-15 09:51:38,163 - auth - INFO - User logged in: abhishek10012
+2026-02-15 09:51:38,164 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:38] "POST /login HTTP/1.1" 200 -
+2026-02-15 09:51:41,024 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:41] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 09:51:42,696 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-15 09:51:42,876 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:42] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-15 09:51:45,034 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:45] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:51:46,903 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:46] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 09:51:49,011 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:49] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:51:53,381 - modules.data_collection - INFO - Importing sales data from ../data/uploads/demo_sales_data.xlsx
+2026-02-15 09:51:53,617 - modules.data_collection - INFO - Successfully imported 1736 records
+2026-02-15 09:51:55,034 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: raw
+2026-02-15 09:51:55,034 - __main__ - INFO - Data uploaded successfully by user 6990ef1fe4dd3668d3dadc0a: demo_sales_data.xlsx
+2026-02-15 09:51:55,036 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:55] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 09:51:59,258 - modules.data_collection - INFO - Fetching weather data for New York from 2024-01-01 to 2024-12-31
+2026-02-15 09:51:59,260 - modules.data_collection - INFO - Fetched 366 weather records
+2026-02-15 09:51:59,260 - modules.data_collection - INFO - Fetching holiday data for US from 2024-01-01 to 2024-12-31
+2026-02-15 09:51:59,261 - modules.data_collection - INFO - Fetched 13 holiday records
+2026-02-15 09:51:59,261 - __main__ - INFO - External data fetched for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:51:59,269 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:51:59] "POST /api/external-data HTTP/1.1" 200 -
+2026-02-15 09:52:02,115 - modules.data_collection - INFO - Fetching weather data for New York from 2024-01-01 to 2024-12-31
+2026-02-15 09:52:02,117 - modules.data_collection - INFO - Fetched 366 weather records
+2026-02-15 09:52:02,117 - modules.data_collection - INFO - Fetching holiday data for US from 2024-01-01 to 2024-12-31
+2026-02-15 09:52:02,119 - modules.data_collection - INFO - Fetched 13 holiday records
+2026-02-15 09:52:02,119 - __main__ - INFO - External data fetched for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:52:02,126 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:52:02] "POST /api/external-data HTTP/1.1" 200 -
+2026-02-15 09:52:07,530 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:52:07] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 09:52:09,373 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:52:09] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 09:52:11,206 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:52:11] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 09:52:17,206 - modules.data_preprocessing - INFO - Starting data preprocessing
+2026-02-15 09:52:17,207 - modules.data_preprocessing - INFO - Missing values handled
+2026-02-15 09:52:17,213 - modules.data_preprocessing - INFO - Outliers capped in 6 columns
+2026-02-15 09:52:17,213 - modules.data_preprocessing - INFO - Outliers removed
+2026-02-15 09:52:17,216 - modules.data_preprocessing - INFO - Encoded 7 categorical columns
+2026-02-15 09:52:17,217 - modules.data_preprocessing - INFO - Categorical variables encoded
+2026-02-15 09:52:17,220 - modules.data_preprocessing - INFO - Scaled 5 numerical columns
+2026-02-15 09:52:17,220 - modules.data_preprocessing - INFO - Numerical features scaled
+2026-02-15 09:52:17,222 - modules.data_preprocessing - INFO - Time series formatting complete
+2026-02-15 09:52:17,222 - modules.data_preprocessing - INFO - Time-series format applied
+2026-02-15 09:52:17,222 - modules.data_preprocessing - INFO - Preprocessing complete. Final shape: (1736, 14)
+2026-02-15 09:52:18,447 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: preprocessed
+2026-02-15 09:52:18,447 - __main__ - INFO - Data preprocessed successfully for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:52:18,449 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:52:18] "POST /api/preprocess HTTP/1.1" 200 -
+2026-02-15 09:52:23,460 - modules.feature_engineering - INFO - Starting feature engineering
+2026-02-15 09:52:23,462 - modules.feature_engineering - INFO - Created 6 lagged features
+2026-02-15 09:52:23,462 - modules.feature_engineering - INFO - Lagged features created
+2026-02-15 09:52:23,464 - modules.feature_engineering - INFO - Created moving average features with windows: [3, 7, 14, 30]
+2026-02-15 09:52:23,464 - modules.feature_engineering - INFO - Moving average features created
+2026-02-15 09:52:23,471 - modules.feature_engineering - INFO - Date features created
+2026-02-15 09:52:23,471 - modules.feature_engineering - INFO - Date features created
+2026-02-15 09:52:23,474 - modules.feature_engineering - INFO - Weather features merged and created
+2026-02-15 09:52:23,474 - modules.feature_engineering - INFO - Weather features created
+2026-02-15 09:52:23,476 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 09:52:23,477 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 09:52:23,478 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 09:52:23,478 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 09:52:23,481 - modules.feature_engineering - INFO - Feature engineering complete. Total features: 63
+2026-02-15 09:52:25,505 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: features
+2026-02-15 09:52:25,506 - __main__ - INFO - Features engineered successfully for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:52:25,510 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:52:25] "POST /api/engineer-features HTTP/1.1" 200 -
+2026-02-15 09:52:29,736 - modules.model_training - INFO - Starting model training for 2 models
+2026-02-15 09:52:29,742 - modules.model_training - INFO - Training random_forest model
+2026-02-15 09:52:30,007 - modules.model_training - INFO - random_forest trained - MAE: 0.00
+2026-02-15 09:52:30,021 - modules.model_training - INFO - Model saved: ../models/random_forest_model.pkl
+2026-02-15 09:52:30,021 - modules.model_training - INFO - Training gradient_boosting model
+2026-02-15 09:52:30,636 - modules.model_training - INFO - gradient_boosting trained - MAE: 0.00
+2026-02-15 09:52:30,639 - modules.model_training - INFO - Model saved: ../models/gradient_boosting_model.pkl
+2026-02-15 09:52:30,639 - modules.model_training - INFO - Model training completed in 0.90 seconds
+2026-02-15 09:52:30,870 - database - INFO - Model saved: random_forest for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:52:31,102 - database - INFO - Model saved: gradient_boosting for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:52:31,102 - __main__ - INFO - Models trained successfully for user 6990ef1fe4dd3668d3dadc0a: ['random_forest', 'gradient_boosting']
+2026-02-15 09:52:31,102 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:52:31] "POST /api/train HTTP/1.1" 200 -
+2026-02-15 09:52:36,609 - modules.forecasting - INFO - Generating 30-day forecast
+2026-02-15 09:52:36,640 - modules.forecasting - INFO - Forecast generated successfully
+2026-02-15 09:52:36,872 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: forecast
+2026-02-15 09:52:36,872 - __main__ - INFO - Forecast generated for user 6990ef1fe4dd3668d3dadc0a: 30 days using random_forest
+2026-02-15 09:52:36,875 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:52:36] "POST /api/forecast HTTP/1.1" 200 -
+2026-02-15 09:52:45,053 - modules.forecasting - INFO - Generating 30-day forecast
+2026-02-15 09:52:45,062 - modules.forecasting - INFO - Forecast generated successfully
+2026-02-15 09:52:45,294 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: forecast
+2026-02-15 09:52:45,294 - __main__ - INFO - Forecast generated for user 6990ef1fe4dd3668d3dadc0a: 30 days using gradient_boosting
+2026-02-15 09:52:45,297 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:52:45] "POST /api/forecast HTTP/1.1" 200 -
+2026-02-15 09:52:51,009 - modules.model_evaluation - INFO - Evaluating 2 models
+2026-02-15 09:52:51,009 - modules.model_evaluation - INFO - random_forest - MAE: 7.92, R²: 0.845
+2026-02-15 09:52:51,009 - modules.model_evaluation - INFO - gradient_boosting - MAE: 11.05, R²: 0.869
+2026-02-15 09:52:51,010 - modules.model_evaluation - INFO - Best model: random_forest
+2026-02-15 09:52:51,011 - __main__ - INFO - Models evaluated successfully for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:52:51,011 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:52:51] "POST /api/evaluate HTTP/1.1" 200 -
+2026-02-15 09:52:54,607 - modules.insights - INFO - Generating actionable insights
+2026-02-15 09:52:54,614 - modules.insights - INFO - Insights generated successfully
+2026-02-15 09:52:54,614 - __main__ - INFO - Insights generated for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 09:52:54,615 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 09:52:54] "GET /api/insights HTTP/1.1" 200 -
+2026-02-15 09:54:59,107 - werkzeug - INFO -  * Detected change in '/workspace/backend/modules/data_preprocessing.py', reloading
+2026-02-15 09:54:59,810 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:55:17,830 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:55:17,846 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 09:55:17,846 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 09:55:17,846 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:55:21,702 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:55:21,708 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:55:21,709 - werkzeug - INFO -  * Debugger PIN: 182-051-338
+2026-02-15 09:56:28,904 - werkzeug - INFO -  * Detected change in '/workspace/backend/modules/forecasting.py', reloading
+2026-02-15 09:56:29,535 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:56:42,796 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:56:42,812 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 09:56:42,812 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 09:56:42,813 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:56:46,723 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:56:46,729 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:56:46,729 - werkzeug - INFO -  * Debugger PIN: 359-181-790
+2026-02-15 09:57:59,060 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:58:03,888 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 09:58:03] "HEAD / HTTP/1.1" 200 -
+2026-02-15 09:58:36,035 - werkzeug - INFO -  * Detected change in '/workspace/backend/modules/model_training.py', reloading
+2026-02-15 09:58:36,567 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:58:49,120 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:58:49,135 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 09:58:49,135 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 09:58:49,135 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 09:58:53,041 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 09:58:53,046 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 09:58:53,047 - werkzeug - INFO -  * Debugger PIN: 102-246-522
+2026-02-15 10:00:06,735 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:00:30,315 - werkzeug - INFO -  * Detected change in '/workspace/backend/modules/forecasting.py', reloading
+2026-02-15 10:00:30,697 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 10:00:43,203 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:00:43,218 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 10:00:43,218 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 10:00:43,218 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 10:00:47,052 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:00:47,057 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 10:00:47,058 - werkzeug - INFO -  * Debugger PIN: 507-873-786
+2026-02-15 10:01:58,179 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:02:23,326 - werkzeug - INFO -  * Detected change in '/workspace/backend/modules/forecasting.py', reloading
+2026-02-15 10:02:23,960 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 10:02:35,841 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:02:35,856 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 10:02:35,856 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 10:02:35,857 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 10:02:39,611 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:02:39,616 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 10:02:39,617 - werkzeug - INFO -  * Debugger PIN: 147-560-088
+2026-02-15 10:03:49,089 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:04:22,906 - werkzeug - INFO -  * Detected change in '/workspace/backend/modules/forecasting.py', reloading
+2026-02-15 10:04:23,484 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 10:04:35,510 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:04:35,527 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 10:04:35,527 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 10:04:35,528 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 10:04:39,339 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:04:39,345 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 10:04:39,345 - werkzeug - INFO -  * Debugger PIN: 890-584-076
+2026-02-15 10:05:51,529 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:06:40,673 - werkzeug - INFO -  * Detected change in '/workspace/backend/modules/data_collection.py', reloading
+2026-02-15 10:06:41,052 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 10:06:53,801 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:06:53,816 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 10:06:53,816 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 10:06:53,817 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 10:06:57,695 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:06:57,701 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 10:06:57,701 - werkzeug - INFO -  * Debugger PIN: 389-240-841
+2026-02-15 10:08:07,425 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:08:41,512 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 10:08:41] "GET /?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 10:08:42,571 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:08:42] "GET /?hideControls=true&password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 10:08:47,607 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:08:47] "GET /static/css/landing.css HTTP/1.1" 200 -
+2026-02-15 10:10:05,220 - werkzeug - INFO -  * Detected change in '/workspace/backend/app.py', reloading
+2026-02-15 10:10:05,812 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 10:10:12,805 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:10:12,821 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 10:10:12,821 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 10:10:12,822 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 10:10:16,751 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:10:16,757 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 10:10:16,757 - werkzeug - INFO -  * Debugger PIN: 310-279-284
+2026-02-15 10:10:25,551 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:10:25] "GET /?hideControls=true&password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 10:10:27,263 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:10:27] "GET /static/css/landing.css HTTP/1.1" 200 -
+2026-02-15 10:10:41,333 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:10:41] "GET /?_gl=1*1pas3z0*_gcl_au*MTY2NjAyNzc0OS4xNzcxMTAyODA0LjE2ODI3NTcxODMuMTc3MTE0NDUwOC4xNzcxMTQ0NzY4*_ga*MjEzNjQ0NDkxNC4xNzcxMTAyNzYy*_ga_8NW18Q4WF2*czE3NzExNDQ0MDMkbzIkZzEkdDE3NzExNDQ4MzEkajYwJGwwJGgzMzU5MzcwNjU.&password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 10:10:43,000 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:10:43] "GET /static/css/landing.css HTTP/1.1" 200 -
+2026-02-15 10:11:00,640 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:11:00] "GET /login HTTP/1.1" 200 -
+2026-02-15 10:11:02,305 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:11:02] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-02-15 10:11:16,368 - database - INFO - Successfully connected to MongoDB database: adt
+2026-02-15 10:11:16,842 - database - INFO - Database indexes created successfully
+2026-02-15 10:11:17,558 - auth - INFO - User logged in: abhishek10012
+2026-02-15 10:11:17,559 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:11:17] "POST /login HTTP/1.1" 200 -
+2026-02-15 10:11:20,670 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:11:20] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 10:11:22,563 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:11:22] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-15 10:11:26,340 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:11:26] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-15 10:11:28,632 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:11:28] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 10:11:30,701 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:11:30] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 10:11:32,447 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:11:32] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 10:11:38,121 - modules.data_collection - INFO - Importing sales data from ../data/uploads/demo_sales_data.xlsx
+2026-02-15 10:11:38,354 - modules.data_collection - INFO - Successfully imported 184 records
+2026-02-15 10:11:38,822 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: raw
+2026-02-15 10:11:38,822 - __main__ - INFO - Data uploaded successfully by user 6990ef1fe4dd3668d3dadc0a: demo_sales_data.xlsx
+2026-02-15 10:11:38,824 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:11:38] "POST /api/upload HTTP/1.1" 200 -
+2026-02-15 10:11:53,903 - modules.data_collection - INFO - Fetching weather data for New York from 2024-01-01 to 2024-12-31
+2026-02-15 10:11:53,905 - modules.data_collection - INFO - Fetched 366 weather records
+2026-02-15 10:11:53,905 - modules.data_collection - INFO - Fetching holiday data for US from 2024-01-01 to 2024-12-31
+2026-02-15 10:11:53,907 - modules.data_collection - INFO - Fetched 13 holiday records
+2026-02-15 10:11:53,907 - __main__ - INFO - External data fetched for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 10:11:53,915 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:11:53] "POST /api/external-data HTTP/1.1" 200 -
+2026-02-15 10:11:56,764 - modules.data_collection - INFO - Fetching weather data for New York from 2024-01-01 to 2024-12-31
+2026-02-15 10:11:56,766 - modules.data_collection - INFO - Fetched 366 weather records
+2026-02-15 10:11:56,766 - modules.data_collection - INFO - Fetching holiday data for US from 2024-01-01 to 2024-12-31
+2026-02-15 10:11:56,768 - modules.data_collection - INFO - Fetched 13 holiday records
+2026-02-15 10:11:56,768 - __main__ - INFO - External data fetched for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 10:11:56,775 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:11:56] "POST /api/external-data HTTP/1.1" 200 -
+2026-02-15 10:12:02,233 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:02] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 10:12:04,054 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:04] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 10:12:05,694 - modules.data_preprocessing - INFO - Starting data preprocessing
+2026-02-15 10:12:05,695 - modules.data_preprocessing - INFO - Missing values handled
+2026-02-15 10:12:05,698 - modules.data_preprocessing - INFO - Outliers capped in 3 columns
+2026-02-15 10:12:05,698 - modules.data_preprocessing - INFO - Outliers removed
+2026-02-15 10:12:05,698 - modules.data_preprocessing - INFO - Encoded 1 categorical columns
+2026-02-15 10:12:05,699 - modules.data_preprocessing - INFO - Categorical variables encoded
+2026-02-15 10:12:05,701 - modules.data_preprocessing - INFO - Scaled 1 numerical columns (excluding target variables)
+2026-02-15 10:12:05,701 - modules.data_preprocessing - INFO - Numerical features scaled
+2026-02-15 10:12:05,702 - modules.data_preprocessing - INFO - Time series formatting complete
+2026-02-15 10:12:05,702 - modules.data_preprocessing - INFO - Time-series format applied
+2026-02-15 10:12:05,702 - modules.data_preprocessing - INFO - Preprocessing complete. Final shape: (184, 5)
+2026-02-15 10:12:06,165 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: preprocessed
+2026-02-15 10:12:06,165 - __main__ - INFO - Data preprocessed successfully for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 10:12:06,167 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:06] "POST /api/preprocess HTTP/1.1" 200 -
+2026-02-15 10:12:07,151 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:07] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 10:12:08,670 - modules.feature_engineering - INFO - Starting feature engineering
+2026-02-15 10:12:08,671 - modules.feature_engineering - INFO - Created 6 lagged features
+2026-02-15 10:12:08,671 - modules.feature_engineering - INFO - Lagged features created
+2026-02-15 10:12:08,673 - modules.feature_engineering - INFO - Created moving average features with windows: [3, 7, 14, 30]
+2026-02-15 10:12:08,673 - modules.feature_engineering - INFO - Moving average features created
+2026-02-15 10:12:08,678 - modules.feature_engineering - INFO - Date features created
+2026-02-15 10:12:08,678 - modules.feature_engineering - INFO - Date features created
+2026-02-15 10:12:08,681 - modules.feature_engineering - INFO - Weather features merged and created
+2026-02-15 10:12:08,682 - modules.feature_engineering - INFO - Weather features created
+2026-02-15 10:12:08,684 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 10:12:08,684 - modules.feature_engineering - INFO - Holiday features created
+2026-02-15 10:12:08,685 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 10:12:08,685 - modules.feature_engineering - INFO - Trend features created
+2026-02-15 10:12:08,687 - modules.feature_engineering - INFO - Feature engineering complete. Total features: 57
+2026-02-15 10:12:09,875 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: features
+2026-02-15 10:12:09,875 - __main__ - INFO - Features engineered successfully for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 10:12:09,879 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:09] "POST /api/engineer-features HTTP/1.1" 200 -
+2026-02-15 10:12:16,039 - modules.model_training - INFO - Starting model training for 4 models
+2026-02-15 10:12:16,044 - modules.model_training - INFO - Training random_forest model
+2026-02-15 10:12:16,159 - modules.model_training - INFO - random_forest trained - MAE: 3.02
+2026-02-15 10:12:16,173 - modules.model_training - INFO - Model saved: ../models/random_forest_model.pkl
+2026-02-15 10:12:16,174 - modules.model_training - INFO - Training gradient_boosting model
+2026-02-15 10:12:16,292 - modules.model_training - INFO - gradient_boosting trained - MAE: 3.10
+2026-02-15 10:12:16,297 - modules.model_training - INFO - Model saved: ../models/gradient_boosting_model.pkl
+2026-02-15 10:12:16,297 - modules.model_training - INFO - Training linear_regression model
+2026-02-15 10:12:16,300 - modules.model_training - INFO - linear_regression trained - MAE: 0.03
+2026-02-15 10:12:16,301 - modules.model_training - INFO - Model saved: ../models/linear_regression_model.pkl
+2026-02-15 10:12:16,301 - modules.model_training - INFO - Training arima model
+2026-02-15 10:12:16,301 - modules.model_training - INFO - Model training completed in 0.26 seconds
+2026-02-15 10:12:16,541 - database - INFO - Model saved: random_forest for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 10:12:16,777 - database - INFO - Model saved: gradient_boosting for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 10:12:17,014 - database - INFO - Model saved: linear_regression for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 10:12:17,014 - __main__ - INFO - Models trained successfully for user 6990ef1fe4dd3668d3dadc0a: ['random_forest', 'gradient_boosting', 'linear_regression']
+2026-02-15 10:12:17,014 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:17] "POST /api/train HTTP/1.1" 200 -
+2026-02-15 10:12:23,659 - modules.forecasting - INFO - Generating 46-day forecast
+2026-02-15 10:12:23,717 - modules.forecasting - INFO - Forecast generated successfully
+2026-02-15 10:12:23,955 - database - INFO - Data saved for user 6990ef1fe4dd3668d3dadc0a: forecast
+2026-02-15 10:12:23,956 - __main__ - INFO - Forecast generated for user 6990ef1fe4dd3668d3dadc0a: 46 days using gradient_boosting
+2026-02-15 10:12:23,958 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:23] "POST /api/forecast HTTP/1.1" 200 -
+2026-02-15 10:12:31,130 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:31] "GET /login HTTP/1.1" 200 -
+2026-02-15 10:12:32,907 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:32] "GET /static/css/auth.css HTTP/1.1" 200 -
+2026-02-15 10:12:39,039 - auth - INFO - User logged in: abhishek10012
+2026-02-15 10:12:39,040 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:39] "POST /login HTTP/1.1" 200 -
+2026-02-15 10:12:41,947 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:41] "GET /dashboard HTTP/1.1" 200 -
+2026-02-15 10:12:43,501 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:43] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-02-15 10:12:43,740 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:43] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-02-15 10:12:46,045 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:46] "GET /api/dashboard-data HTTP/1.1" 200 -
+2026-02-15 10:12:47,904 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:47] "GET /api/historical-chart-data HTTP/1.1" 200 -
+2026-02-15 10:12:49,336 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:49] "GET /api/forecast-chart-data HTTP/1.1" 200 -
+2026-02-15 10:12:50,282 - modules.model_evaluation - INFO - Evaluating 3 models
+2026-02-15 10:12:50,282 - modules.model_evaluation - INFO - random_forest - MAE: 11.19, R²: 0.714
+2026-02-15 10:12:50,282 - modules.model_evaluation - INFO - gradient_boosting - MAE: 8.53, R²: 0.776
+2026-02-15 10:12:50,282 - modules.model_evaluation - INFO - linear_regression - MAE: 9.33, R²: 0.882
+2026-02-15 10:12:50,283 - modules.model_evaluation - INFO - Best model: gradient_boosting
+2026-02-15 10:12:50,283 - __main__ - INFO - Models evaluated successfully for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 10:12:50,284 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:50] "POST /api/evaluate HTTP/1.1" 200 -
+2026-02-15 10:12:55,326 - modules.insights - INFO - Generating actionable insights
+2026-02-15 10:12:55,333 - modules.insights - INFO - Insights generated successfully
+2026-02-15 10:12:55,333 - __main__ - INFO - Insights generated for user 6990ef1fe4dd3668d3dadc0a
+2026-02-15 10:12:55,333 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:12:55] "GET /api/insights HTTP/1.1" 200 -
+2026-02-15 10:13:10,963 - auth - INFO - User logged out: abhishek10012
+2026-02-15 10:13:10,964 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:13:10] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-02-15 10:13:12,123 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:13:12] "GET /?password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 10:13:13,785 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:13:13] "GET /static/css/landing.css HTTP/1.1" 200 -
+2026-02-15 10:15:21,611 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:15:21,626 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.139.179:8000
+2026-02-15 10:15:21,626 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 10:15:21,627 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 10:15:25,519 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:15:25,525 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 10:15:25,525 - werkzeug - INFO -  * Debugger PIN: 385-971-779
+2026-02-15 10:16:15,230 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:16:15] "GET /?_gl=1*9hal3a*_gcl_au*MTY2NjAyNzc0OS4xNzcxMTAyODA0LjE2ODI3NTcxODMuMTc3MTE0NDUwOC4xNzcxMTQ0NzY4*_ga*MjEzNjQ0NDkxNC4xNzcxMTAyNzYy*_ga_8NW18Q4WF2*czE3NzExNDQ0MDMkbzIkZzEkdDE3NzExNDQ4MzEkajYwJGwwJGgzMzU5MzcwNjU.&password=5428ca22-2caa-4f58-bccd-c0e2a8b2fd6b HTTP/1.1" 200 -
+2026-02-15 10:16:16,652 - werkzeug - INFO - 172.16.0.1 - - [15/Feb/2026 10:16:16] "GET /static/css/landing.css HTTP/1.1" 200 -
+2026-02-15 10:28:44,226 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:28:44,249 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.15.243:8000
+2026-02-15 10:28:44,249 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 10:28:44,249 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 10:28:48,125 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:28:48,131 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 10:28:48,131 - werkzeug - INFO -  * Debugger PIN: 105-422-823
+2026-02-15 10:30:42,181 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:30:42,197 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.15.243:8000
+2026-02-15 10:30:42,197 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 10:30:42,198 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 10:30:46,234 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:30:46,240 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 10:30:46,241 - werkzeug - INFO -  * Debugger PIN: 197-558-412
+2026-02-15 10:34:47,541 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:34:47,557 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.15.243:8000
+2026-02-15 10:34:47,557 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 10:34:47,558 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 10:34:51,725 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:34:51,732 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 10:34:51,732 - werkzeug - INFO -  * Debugger PIN: 116-143-857
+2026-02-15 10:38:39,569 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 10:38:39] "HEAD / HTTP/1.1" 200 -
+2026-02-15 10:39:01,799 - werkzeug - INFO - 172.16.15.243 - - [15/Feb/2026 10:39:01] "GET / HTTP/1.1" 200 -

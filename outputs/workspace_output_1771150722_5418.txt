@@ -1,0 +1,4 @@
+-rw-r--r--  1 root root   9267 Feb 15 10:18 SETUP_GUIDE.md
+-rw-r--r--  1 root root 100576 Feb 15 09:17 demo_sales_data.xlsx
+-rw-r--r--  1 root root   5367 Feb 15 09:17 sales_data_template.xlsx
+-rw-r--r--  1 root root    795 Feb 15 10:08 todo.md

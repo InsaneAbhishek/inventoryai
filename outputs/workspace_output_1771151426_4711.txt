@@ -1,0 +1,11 @@
+/* Hide SuperNinja branding */
+[class*="ninja"],
+[id*="ninja"],
+[class*="superninja"],
+[id*="superninja"],
+div[style*="Made by"],
+iframe[src*="ninja"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    position: absolute !important;

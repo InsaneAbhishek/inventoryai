@@ -1,0 +1,109 @@
+[master (root-commit) eebbc58] Initial commit - InventoryAI application with full deployment setup
+ Committer: root <root@172.16.15.243>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 95 files changed, 12096 insertions(+)
+ create mode 100755 .agent_hooks/run_all_hooks.py
+ create mode 100755 .agent_hooks/shutdown/00_track_processes_on_ports.py
+ create mode 100644 .agent_hooks/shutdown/_readme.txt
+ create mode 100644 .agent_hooks/startup/_readme.txt
+ create mode 100644 .env.example
+ create mode 100644 .gitignore
+ create mode 100644 .render.yaml
+ create mode 100644 DEPLOYMENT_GUIDE.md
+ create mode 100644 PUBLIC_LINK.md
+ create mode 100644 Procfile
+ create mode 100644 SETUP_GUIDE.md
+ create mode 100644 backend/app.py
+ create mode 100644 backend/auth.py
+ create mode 100644 backend/config.py
+ create mode 100644 backend/database.py
+ create mode 100644 backend/models/__init__.py
+ create mode 100644 backend/models/user.py
+ create mode 100644 backend/modules/__init__.py
+ create mode 100644 backend/modules/data_collection.py
+ create mode 100644 backend/modules/data_preprocessing.py
+ create mode 100644 backend/modules/feature_engineering.py
+ create mode 100644 backend/modules/forecasting.py
+ create mode 100644 backend/modules/insights.py
+ create mode 100644 backend/modules/model_evaluation.py
+ create mode 100644 backend/modules/model_training.py
+ create mode 100644 backend/modules/notifications.py
+ create mode 100644 backend/requirements.txt
+ create mode 100644 data/sample_data/sample_sales_data.csv
+ create mode 100644 demo_sales_data.xlsx
+ create mode 100644 frontend/static/css/auth.css
+ create mode 100644 frontend/static/css/landing.css
+ create mode 100644 frontend/static/css/style.css
+ create mode 100644 frontend/static/js/app.js
+ create mode 100644 frontend/templates/index.html
+ create mode 100644 frontend/templates/landing.html
+ create mode 100644 frontend/templates/login.html
+ create mode 100644 frontend/templates/register.html
+ create mode 100644 outputs/workspace_output_1771150719_3288.txt
+ create mode 100644 outputs/workspace_output_1771150722_5418.txt
+ create mode 100644 outputs/workspace_output_1771150724_5658.txt
+ create mode 100644 outputs/workspace_output_1771150726_5476.txt
+ create mode 100644 outputs/workspace_output_1771151237_341.txt
+ create mode 100644 outputs/workspace_output_1771151242_8638.txt
+ create mode 100644 outputs/workspace_output_1771151247_6947.txt
+ create mode 100644 outputs/workspace_output_1771151257_9581.txt
+ create mode 100644 outputs/workspace_output_1771151262_4986.txt
+ create mode 100644 outputs/workspace_output_1771151263_4909.txt
+ create mode 100644 outputs/workspace_output_1771151275_9361.txt
+ create mode 100644 outputs/workspace_output_1771151319_2242.txt
+ create mode 100644 outputs/workspace_output_1771151331_5332.txt
+ create mode 100644 outputs/workspace_output_1771151403_4574.txt
+ create mode 100644 outputs/workspace_output_1771151405_7617.txt
+ create mode 100644 outputs/workspace_output_1771151407_4309.txt
+ create mode 100644 outputs/workspace_output_1771151414_1279.txt
+ create mode 100644 outputs/workspace_output_1771151422_8033.txt
+ create mode 100644 outputs/workspace_output_1771151424_9959.txt
+ create mode 100644 outputs/workspace_output_1771151426_4711.txt
+ create mode 100644 outputs/workspace_output_1771151428_1441.txt
+ create mode 100644 outputs/workspace_output_1771151430_9868.txt
+ create mode 100644 outputs/workspace_output_1771151434_9421.txt
+ create mode 100644 outputs/workspace_output_1771151436_8321.txt
+ create mode 100644 outputs/workspace_output_1771151437_4139.txt
+ create mode 100644 outputs/workspace_output_1771151599_9935.txt
+ create mode 100644 outputs/workspace_output_1771151601_6276.txt
+ create mode 100644 outputs/workspace_output_1771151618_4327.txt
+ create mode 100644 outputs/workspace_output_1771151636_2939.txt
+ create mode 100644 outputs/workspace_output_1771151645_4164.txt
+ create mode 100644 outputs/workspace_output_1771151649_6306.txt
+ create mode 100644 outputs/workspace_output_1771151657_3271.txt
+ create mode 100644 outputs/workspace_output_1771151659_8182.txt
+ create mode 100644 outputs/workspace_output_1771151665_6641.txt
+ create mode 100644 outputs/workspace_output_1771151675_443.txt
+ create mode 100644 outputs/workspace_output_1771151679_5544.txt
+ create mode 100644 outputs/workspace_output_1771151681_8166.txt
+ create mode 100644 outputs/workspace_output_1771151683_1434.txt
+ create mode 100644 outputs/workspace_output_1771151870_9761.txt
+ create mode 100644 outputs/workspace_output_1771151919_313.txt
+ create mode 100644 outputs/workspace_output_1771151921_3837.txt
+ create mode 100644 outputs/workspace_output_1771151929_5564.txt
+ create mode 100644 outputs/workspace_output_1771151937_6917.txt
+ create mode 100644 outputs/workspace_output_1771151939_1285.txt
+ create mode 100644 outputs/workspace_output_1771151941_7018.txt
+ create mode 100644 outputs/workspace_output_1771151944_3220.txt
+ create mode 100644 outputs/workspace_output_1771151948_3901.txt
+ create mode 100644 outputs/workspace_output_1771152089_8240.txt
+ create mode 100644 outputs/workspace_output_1771152095_4503.txt
+ create mode 100644 outputs/workspace_output_1771152118_7765.txt
+ create mode 100644 outputs/workspace_output_1771152119_8734.txt
+ create mode 100644 outputs/workspace_output_1771152121_3573.txt
+ create mode 100644 outputs/workspace_output_1771152123_5218.txt
+ create mode 100644 outputs/workspace_output_1771152124_7072.txt
+ create mode 100644 requirements.txt
+ create mode 100644 sales_data_template.xlsx
+ create mode 100644 summarized_conversations/original_conversation_1771152057_9109.txt
+ create mode 100644 todo.md

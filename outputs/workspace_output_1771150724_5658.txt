@@ -1,0 +1,28 @@
+/workspace
+├── SETUP_GUIDE.md
+├── backend
+│   ├── app.py
+│   ├── auth.py
+│   ├── config.py
+│   ├── database.py
+│   ├── models
+│   ├── modules
+│   └── requirements.txt
+├── data
+│   ├── sample_data
+│   └── uploads
+├── demo_sales_data.xlsx
+├── frontend
+│   ├── data
+│   ├── static
+│   └── templates
+├── logs
+│   └── app.log
+├── models
+│   ├── gradient_boosting_model.pkl
+│   ├── linear_regression_model.pkl
+│   └── random_forest_model.pkl
+├── sales_data_template.xlsx
+└── todo.md
+
+13 directories, 13 files

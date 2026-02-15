@@ -1,0 +1,11 @@
+                            <span class="avatar-initials">UDD</span>
+                        </div>
+                    </div>
+--
+                            <span class="avatar-initials">TKM</span>
+                        </div>
+                    </div>
+--
+                    <p>&copy; 2024 InventoryAI. All rights reserved. Built with ❤️ by <strong>Upadhyay Diya Devangbhai</strong> & <strong>Thakar Krisha Mehulkumar</strong></p>
+                </div>
+                <div class="footer-social">

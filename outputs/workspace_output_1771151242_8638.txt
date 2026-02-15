@@ -1,0 +1,1 @@
+603:                    <p>&copy; 2024 InventoryAI. All rights reserved. Built with ❤️ by <strong>Diya</strong> & <strong>Krisha</strong></p>

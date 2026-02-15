@@ -1,0 +1,16 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/2 302 
+content-length: 0
+location: https://super.myninja.ai/404
+server: CloudFront
+date: Sun, 15 Feb 2026 10:38:54 GMT
+cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+x-cache: Miss from cloudfront
+via: 1.1 f9cbfbc3568832d017c09dbd4649932c.cloudfront.net (CloudFront)
+x-amz-cf-pop: HIO52-P2
+x-amz-cf-id: 3rBGA2dl2_uPiAzeLGw43hh7Z62a-5sFRuOsuPx4mJOeg9PuFaQ38w==
+vary: Origin
+

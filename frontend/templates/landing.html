@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InventoryAI - Intelligent Inventory Forecasting</title>
+    <link rel="stylesheet" href="/static/css/landing.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="brand-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="32" height="32" rx="8" fill="url(#gradient)"/>
+                        <path d="M8 16C8 12.6863 10.6863 10 14 10H18C21.3137 10 24 12.6863 24 16C24 19.3137 21.3137 22 18 22H14C10.6863 22 8 19.3137 8 16Z" stroke="white" stroke-width="2"/>
+                        <circle cx="16" cy="16" r="4" fill="white"/>
+                        <defs>
+                            <linearGradient id="gradient" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#6366F1"/>
+                                <stop offset="1" stop-color="#A855F7"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <span class="brand-text">InventoryAI</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#developers">Developers</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="/login" class="btn btn-secondary">Login</a>
+                <a href="/login" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="grid-pattern"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">🚀</span>
+                    <span>AI-Powered Inventory Management</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    Transform Your Inventory with
+                    <span class="gradient-text">Predictive Intelligence</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Harness the power of advanced machine learning to forecast demand, optimize stock levels, and reduce costs. Make data-driven decisions with confidence.
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-value">95%</div>
+                        <div class="stat-label">Forecast Accuracy</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-value">30%</div>
+                        <div class="stat-label">Cost Reduction</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-value">60%</div>
+                        <div class="stat-label">Less Stockouts</div>
+                    </div>
+                </div>
+                
+                <div class="hero-cta">
+                    <a href="/login" class="btn btn-primary btn-large">
+                        <span>Start Free Trial</span>
+                        <svg class="btn-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M10.8333 4.16667L16.6667 10M16.6667 10L10.8333 15.8333M16.6667 10H3.33333" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="#how-it-works" class="btn btn-secondary btn-large">
+                        <svg class="btn-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M10 4.16667V15.8333M10 15.8333L5.83333 11.6667M10 15.8333L14.1667 11.6667" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>See How It Works</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="dashboard-preview">
+                    <div class="dashboard-header">
+                        <div class="dashboard-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="dashboard-title">Inventory Dashboard</div>
+                    </div>
+                    <div class="dashboard-body">
+                        <div class="dashboard-chart">
+                            <div class="chart-line"></div>
+                            <div class="chart-area"></div>
+                            <div class="chart-grid"></div>
+                        </div>
+                        <div class="dashboard-cards">
+                            <div class="card mini-card">
+                                <div class="card-label">Total Revenue</div>
+                                <div class="card-value">$1.5M</div>
+                                <div class="card-trend positive">↑ 23%</div>
+                            </div>
+                            <div class="card mini-card">
+                                <div class="card-label">Active Products</div>
+                                <div class="card-value">248</div>
+                                <div class="card-trend positive">↑ 12</div>
+                            </div>
+                            <div class="card mini-card">
+                                <div class="card-label">Accuracy</div>
+                                <div class="card-value">94.8%</div>
+                                <div class="card-trend positive">↑ 2.3%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Floating Elements -->
+                <div class="floating-card card-1">
+                    <div class="floating-icon">📊</div>
+                    <div class="floating-text">
+                        <div class="floating-title">Demand Spike Detected</div>
+                        <div class="floating-subtitle">+45% expected next week</div>
+                    </div>
+                </div>
+                
+                <div class="floating-card card-2">
+                    <div class="floating-icon">✅</div>
+                    <div class="floating-text">
+                        <div class="floating-title">Stock Optimized</div>
+                        <div class="floating-subtitle">Reduced by 23%</div>
+                    </div>
+                </div>
+                
+                <div class="floating-card card-3">
+                    <div class="floating-icon">🎯</div>
+                    <div class="floating-text">
+                        <div class="floating-title">Prediction Updated</div>
+                        <div class="floating-subtitle">98.2% confidence</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted By Section -->
+    <section class="trusted-by">
+        <div class="container">
+            <p class="trusted-text">Trusted by innovative companies worldwide</p>
+            <div class="trusted-logos">
+                <div class="logo-item"><span>TechCorp</span></div>
+                <div class="logo-item"><span>RetailMax</span></div>
+                <div class="logo-item"><span>GlobalTrade</span></div>
+                <div class="logo-item"><span>SupplyHub</span></div>
+                <div class="logo-item"><span>StockSmart</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Features</div>
+                <h2 class="section-title">Everything You Need to <span class="gradient-text">Optimize Inventory</span></h2>
+                <p class="section-subtitle">Powerful AI-driven tools designed for modern inventory management</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="url(#f1-bg)"/>
+                            <path d="M24 14V34M24 14L18 20M24 14L30 20" stroke="url(#f1-stroke)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                                <linearGradient id="f1-bg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#6366F1" stop-opacity="0.1"/>
+                                    <stop offset="1" stop-color="#A855F7" stop-opacity="0.1"/>
+                                </linearGradient>
+                                <linearGradient id="f1-stroke" x1="24" y1="14" x2="24" y2="34" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#6366F1"/>
+                                    <stop offset="1" stop-color="#A855F7"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>Smart Forecasting</h3>
+                    <p>Advanced ML algorithms predict demand with 95%+ accuracy, considering seasonality, trends, and external factors.</p>
+                    <ul class="feature-list">
+                        <li><span class="check-icon">✓</span>Multi-model ensemble approach</li>
+                        <li><span class="check-icon">✓</span>Confidence intervals</li>
+                        <li><span class="check-icon">✓</span>Trend analysis</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="url(#f2-bg)"/>
+                            <path d="M12 20C12 17.7909 13.7909 16 16 16H32C34.2091 16 36 17.7909 36 20V32C36 34.2091 34.2091 36 32 36H16C13.7909 36 12 34.2091 12 32V20Z" stroke="url(#f2-stroke)" stroke-width="2.5"/>
+                            <path d="M12 24H36" stroke="url(#f2-stroke)" stroke-width="2.5"/>
+                            <circle cx="20" cy="30" r="2" fill="url(#f2-stroke)"/>
+                            <defs>
+                                <linearGradient id="f2-bg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#6366F1" stop-opacity="0.1"/>
+                                    <stop offset="1" stop-color="#A855F7" stop-opacity="0.1"/>
+                                </linearGradient>
+                                <linearGradient id="f2-stroke" x1="24" y1="16" x2="24" y2="36" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#6366F1"/>
+                                    <stop offset="1" stop-color="#A855F7"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>Real-time Analytics</h3>
+                    <p>Live dashboards with interactive visualizations to monitor inventory performance and make informed decisions instantly.</p>
+                    <ul class="feature-list">
+                        <li><span class="check-icon">✓</span>Interactive charts</li>
+                        <li><span class="check-icon">✓</span>Custom metrics</li>
+                        <li><span class="check-icon">✓</span>Export capabilities</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="url(#f3-bg)"/>
+                            <path d="M24 12L14 20V36H20V28H28V36H34V20L24 12Z" stroke="url(#f3-stroke)" stroke-width="2.5" stroke-linejoin="round"/>
+                            <defs>
+                                <linearGradient id="f3-bg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#6366F1" stop-opacity="0.1"/>
+                                    <stop offset="1" stop-color="#A855F7" stop-opacity="0.1"/>
+                                </linearGradient>
+                                <linearGradient id="f3-stroke" x1="24" y1="12" x2="24" y2="36" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#6366F1"/>
+                                    <stop offset="1" stop-color="#A855F7"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>Automated Alerts</h3>
+                    <p>Receive intelligent notifications for stockouts, overstock situations, and demand anomalies before they impact business.</p>
+                    <ul class="feature-list">
+                        <li><span class="check-icon">✓</span>Smart thresholds</li>
+                        <li><span class="check-icon">✓</span>Email & push alerts</li>
+                        <li><span class="check-icon">✓</span>Custom rules</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="url(#f4-bg)"/>
+                            <circle cx="24" cy="24" r="10" stroke="url(#f4-stroke)" stroke-width="2.5"/>
+                            <path d="M24 14V24L30 28" stroke="url(#f4-stroke)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                                <linearGradient id="f4-bg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#6366F1" stop-opacity="0.1"/>
+                                    <stop offset="1" stop-color="#A855F7" stop-opacity="0.1"/>
+                                </linearGradient>
+                                <linearGradient id="f4-stroke" x1="24" y1="14" x2="24" y2="28" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#6366F1"/>
+                                    <stop offset="1" stop-color="#A855F7"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>Historical Analysis</h3>
+                    <p>Deep dive into historical data to understand patterns, identify opportunities, and optimize inventory strategy.</p>
+                    <ul class="feature-list">
+                        <li><span class="check-icon">✓</span>Trend identification</li>
+                        <li><span class="check-icon">✓</span>Pattern recognition</li>
+                        <li><span class="check-icon">✓</span>Comparative analysis</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="url(#f5-bg)"/>
+                            <path d="M16 24H32M16 32H28M16 16H32" stroke="url(#f5-stroke)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                                <linearGradient id="f5-bg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#6366F1" stop-opacity="0.1"/>
+                                    <stop offset="1" stop-color="#A855F7" stop-opacity="0.1"/>
+                                </linearGradient>
+                                <linearGradient id="f5-stroke" x1="24" y1="16" x2="24" y2="32" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#6366F1"/>
+                                    <stop offset="1" stop-color="#A855F7"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>Easy Data Import</h3>
+                    <p>Upload your sales data in Excel format and let our system automatically process, clean, and prepare it for analysis.</p>
+                    <ul class="feature-list">
+                        <li><span class="check-icon">✓</span>Excel support</li>
+                        <li><span class="check-icon">✓</span>Auto validation</li>
+                        <li><span class="check-icon">✓</span>Drag & drop</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="url(#f6-bg)"/>
+                            <path d="M24 20L28 24L24 28M20 24H28" stroke="url(#f6-stroke)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="24" cy="24" r="14" stroke="url(#f6-stroke)" stroke-width="2.5"/>
+                            <defs>
+                                <linearGradient id="f6-bg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#6366F1" stop-opacity="0.1"/>
+                                    <stop offset="1" stop-color="#A855F7" stop-opacity="0.1"/>
+                                </linearGradient>
+                                <linearGradient id="f6-stroke" x1="24" y1="10" x2="24" y2="38" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#6366F1"/>
+                                    <stop offset="1" stop-color="#A855F7"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <h3>Model Evaluation</h3>
+                    <p>Comprehensive model performance metrics including MAE, RMSE, and R² scores to ensure reliable predictions.</p>
+                    <ul class="feature-list">
+                        <li><span class="check-icon">✓</span>Multiple metrics</li>
+                        <li><span class="check-icon">✓</span>Model comparison</li>
+                        <li><span class="check-icon">✓</span>Performance tracking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Process</div>
+                <h2 class="section-title">How It <span class="gradient-text">Works</span></h2>
+                <p class="section-subtitle">Get started in minutes with our simple 5-step process</p>
+            </div>
+            
+            <div class="steps-container">
+                <div class="step-item">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Data Collection</h3>
+                        <p>Upload your sales data in Excel format. Our system supports various data structures and automatically validates the input.</p>
+                    </div>
+                </div>
+                
+                <div class="step-item">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Data Preprocessing</h3>
+                        <p>Clean and transform your data with automated handling of missing values, outliers, and date formatting.</p>
+                    </div>
+                </div>
+                
+                <div class="step-item">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Feature Engineering</h3>
+                        <p>Extract powerful predictive features including seasonal patterns, trends, lag variables, and moving averages.</p>
+                    </div>
+                </div>
+                
+                <div class="step-item">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Model Training</h3>
+                        <p>Train multiple ML models (Linear Regression, Random Forest, XGBoost) and automatically select the best performer.</p>
+                    </div>
+                </div>
+                
+                <div class="step-item">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <h3>Forecasting & Insights</h3>
+                        <p>Generate accurate demand forecasts, evaluate model performance, and get actionable insights for inventory optimization.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Developers Section -->
+    <section id="developers" class="developers">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Team</div>
+                <h2 class="section-title">Meet the <span class="gradient-text">Developers</span></h2>
+                <p class="section-subtitle">The brilliant minds behind InventoryAI</p>
+            </div>
+            
+            <div class="developers-grid">
+                <div class="developer-card">
+                    <div class="developer-avatar">
+                        <div class="avatar-gradient gradient-1">
+                            <span class="avatar-initials">UDD</span>
+                        </div>
+                    </div>
+                    <div class="developer-info">
+                        <h3>Diya</h3>
+                        <p class="developer-role">Lead Developer & ML Engineer</p>
+                        <p class="developer-bio">Passionate about machine learning and building intelligent systems that solve real-world problems.</p>
+                        <div class="developer-skills">
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Data Science</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="developer-card">
+                    <div class="developer-avatar">
+                        <div class="avatar-gradient gradient-2">
+                            <span class="avatar-initials">TKM</span>
+                        </div>
+                    </div>
+                    <div class="developer-info">
+                        <h3>Krisha</h3>
+                        <p class="developer-role">Frontend Developer & UI/UX Designer</p>
+                        <p class="developer-bio">Creative developer focused on crafting beautiful, intuitive user interfaces and seamless experiences.</p>
+                        <div class="developer-skills">
+                            <span class="skill-tag">Frontend Dev</span>
+                            <span class="skill-tag">UI/UX Design</span>
+                            <span class="skill-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="team-message">
+                <div class="message-icon">💡</div>
+                <p>Upadhyay Diya Devangbhai and Thakar Krisha Mehulkumar collaborated to build InventoryAI, combining machine learning expertise with stunning user experience design to revolutionize inventory management.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Pricing</div>
+                <h2 class="section-title">Simple, <span class="gradient-text">Transparent Pricing</span></h2>
+                <p class="section-subtitle">Choose the plan that fits your business needs</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <p class="pricing-subtitle">For small businesses</p>
+                        <div class="pricing-price">
+                            <span class="price-value">$0</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="check-icon">✓</span>Up to 1,000 records</li>
+                        <li><span class="check-icon">✓</span>Basic forecasting</li>
+                        <li><span class="check-icon">✓</span>Email support</li>
+                        <li><span class="check-icon">✓</span>Standard metrics</li>
+                    </ul>
+                    <a href="/login" class="btn btn-secondary pricing-cta">Get Started</a>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <p class="pricing-subtitle">For growing businesses</p>
+                        <div class="pricing-price">
+                            <span class="price-value">$49</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="check-icon">✓</span>Up to 50,000 records</li>
+                        <li><span class="check-icon">✓</span>Advanced forecasting</li>
+                        <li><span class="check-icon">✓</span>Priority support</li>
+                        <li><span class="check-icon">✓</span>Custom metrics</li>
+                        <li><span class="check-icon">✓</span>API access</li>
+                    </ul>
+                    <a href="/login" class="btn btn-primary pricing-cta">Get Started</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <p class="pricing-subtitle">For large organizations</p>
+                        <div class="pricing-price">
+                            <span class="price-value">$199</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="check-icon">✓</span>Unlimited records</li>
+                        <li><span class="check-icon">✓</span>Custom ML models</li>
+                        <li><span class="check-icon">✓</span>24/7 dedicated support</li>
+                        <li><span class="check-icon">✓</span>White-label solution</li>
+                        <li><span class="check-icon">✓</span>On-premise deployment</li>
+                    </ul>
+                    <a href="/login" class="btn btn-secondary pricing-cta">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your <span class="gradient-text">Inventory Management</span>?</h2>
+                <p>Join thousands of businesses already using InventoryAI to optimize their inventory and boost profitability.</p>
+                <div class="cta-buttons">
+                    <a href="/login" class="btn btn-primary btn-large">Start Free Trial</a>
+                    <a href="#features" class="btn btn-secondary btn-large">Learn More</a>
+                </div>
+            </div>
+            <div class="cta-bg">
+                <div class="gradient-orb orb-4"></div>
+                <div class="gradient-orb orb-5"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="brand-icon">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="32" height="32" rx="8" fill="url(#footer-gradient)"/>
+                            <path d="M8 16C8 12.6863 10.6863 10 14 10H18C21.3137 10 24 12.6863 24 16C24 19.3137 21.3137 22 18 22H14C10.6863 22 8 19.3137 8 16Z" stroke="white" stroke-width="2"/>
+                            <circle cx="16" cy="16" r="4" fill="white"/>
+                            <defs>
+                                <linearGradient id="footer-gradient" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#6366F1"/>
+                                    <stop offset="1" stop-color="#A855F7"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <span class="brand-text">InventoryAI</span>
+                    <p class="footer-tagline">Intelligent inventory forecasting powered by AI</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="link-column">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#how-it-works">How It Works</a></li>
+                            <li><a href="/login">Login</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#developers">About Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-column">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">API Reference</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Status</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2024 InventoryAI. All rights reserved. Built with ❤️ by <strong>Upadhyay Diya Devangbhai</strong> & <strong>Thakar Krisha Mehulkumar</strong></p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navbar scroll effect
+        const navbar = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Animate elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.feature-card, .step-item, .developer-card, .pricing-card').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Floating cards animation
+        const floatingCards = document.querySelectorAll('.floating-card');
+        floatingCards.forEach((card, index) => {
+            card.style.animationDelay = `${index * 0.5}s`;
+        });
+        
+        // Remove SuperNinja branding
+        removeSuperNinjaBranding();
+    </script>
+    
+    <script>
+        // Function to remove SuperNinja branding
+        function removeSuperNinjaBranding() {
+            // Remove elements with ninja-related classes or IDs
+            const ninjaSelectors = [
+                '[class*="ninja"]',
+                '[id*="ninja"]',
+                '[class*="superninja"]',
+                '[id*="superninja"]',
+                '[class*="daytona"]',
+                '[id*="daytona"]',
+                'div[style*="Made by"]',
+                'div[style*="SuperNinja"]',
+                'iframe[src*="ninja"]',
+                'iframe[src*="super"]'
+            ];
+            
+            ninjaSelectors.forEach(selector => {
+                const elements = document.querySelectorAll(selector);
+                elements.forEach(el => {
+                    el.remove();
+                    console.log('Removed SuperNinja element:', el);
+                });
+            });
+            
+            // Remove fixed positioned elements at bottom
+            const allDivs = document.querySelectorAll('div');
+            allDivs.forEach(div => {
+                const style = window.getComputedStyle(div);
+                if (style.position === 'fixed' && style.bottom === '0px') {
+                    div.remove();
+                    console.log('Removed fixed bottom element:', div);
+                }
+            });
+        }
+        
+        // Run immediately
+        removeSuperNinjaBranding();
+        
+        // Run periodically to catch dynamically added elements
+        setInterval(removeSuperNinjaBranding, 500);
+    </script>
+</body>
+</html>

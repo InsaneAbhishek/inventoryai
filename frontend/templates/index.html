@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelligent Inventory Demand Forecasting System</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon">📊</div>
+                <div class="logo-text">
+                    <h1>InventoryAI</h1>
+                    <p>Demand Forecasting</p>
+                </div>
+            </div>
+            
+            <nav class="nav-menu">
+                <div class="nav-item active" data-section="dashboard">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Dashboard</span>
+                </div>
+                <div class="nav-item" data-section="data">
+                    <i class="fas fa-database"></i>
+                    <span>Data Collection</span>
+                </div>
+                <div class="nav-item" data-section="preprocessing">
+                    <i class="fas fa-cogs"></i>
+                    <span>Preprocessing</span>
+                </div>
+                <div class="nav-item" data-section="features">
+                    <i class="fas fa-brain"></i>
+                    <span>Feature Engineering</span>
+                </div>
+                <div class="nav-item" data-section="models">
+                    <i class="fas fa-robot"></i>
+                    <span>Model Training</span>
+                </div>
+                <div class="nav-item" data-section="forecast">
+                    <i class="fas fa-crystal-ball"></i>
+                    <span>Forecasting</span>
+                </div>
+                <div class="nav-item" data-section="evaluation">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Evaluation</span>
+                </div>
+                <div class="nav-item" data-section="insights">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Insights & Optimization</span>
+                </div>
+                <div class="nav-item" data-section="alerts">
+                    <i class="fas fa-bell"></i>
+                    <span>Notifications</span>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-title">
+                    <h1 id="page-title">Dashboard Overview</h1>
+                    <p id="page-subtitle">Real-time inventory demand forecasting and optimization</p>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn-secondary" onclick="refreshData()">
+                        <i class="fas fa-sync-alt"></i>
+                        Refresh
+                    </button>
+                    <button class="btn btn-primary" onclick="exportReport()">
+                        <i class="fas fa-download"></i>
+                        Export Report
+                    </button>
+                    <button class="btn btn-secondary" onclick="openProfileModal()" style="margin-left: 10px;">
+                        <i class="fas fa-user"></i>
+                        Profile
+                    </button>
+                </div>
+            </header>
+
+            <!-- Dashboard Section -->
+            <section id="dashboard-section" class="section active">
+                <!-- Stats Grid -->
+                <div class="stats-grid">
+                    <div class="stat-card fade-in">
+                        <div class="stat-icon">📦</div>
+                        <div class="stat-value" id="total-records">0</div>
+                        <div class="stat-label">Total Records</div>
+                        <div class="stat-change positive">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>+12.5% this month</span>
+                        </div>
+                    </div>
+                    <div class="stat-card fade-in">
+                        <div class="stat-icon">🎯</div>
+                        <div class="stat-value" id="forecast-accuracy">0%</div>
+                        <div class="stat-label">Forecast Accuracy</div>
+                        <div class="stat-change positive">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>+3.2% improvement</span>
+                        </div>
+                    </div>
+                    <div class="stat-card fade-in">
+                        <div class="stat-icon">📈</div>
+                        <div class="stat-value" id="total-demand">0</div>
+                        <div class="stat-label">Total Forecasted Demand</div>
+                        <div class="stat-change positive">
+                            <i class="fas fa-arrow-up"></i>
+                            <span>Next 30 days</span>
+                        </div>
+                    </div>
+                    <div class="stat-card fade-in">
+                        <div class="stat-icon">⚠️</div>
+                        <div class="stat-value" id="active-alerts">0</div>
+                        <div class="stat-label">Active Alerts</div>
+                        <div class="stat-change negative">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <span>Requires attention</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts Section -->
+                <div class="charts-section">
+                    <div class="chart-card">
+                        <div class="card-header">
+                            <div>
+                                <h3 class="card-title">Historical Sales</h3>
+                                <p class="card-subtitle">Past 6 months performance</p>
+                            </div>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="historicalChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <div class="card-header">
+                            <div>
+                                <h3 class="card-title">Demand Forecast</h3>
+                                <p class="card-subtitle">Next 30 days prediction</p>
+                            </div>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="forecastChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Alerts -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Recent Alerts</h3>
+                        <button class="btn btn-secondary" onclick="showAllAlerts()">
+                            View All
+                        </button>
+                    </div>
+                    <div class="alerts-container" id="recent-alerts">
+                        <div class="alert alert-warning">
+                            <div class="alert-icon">⚠️</div>
+                            <div class="alert-content">
+                                <h4>Low Stock Warning</h4>
+                                <p>Product P001 forecasted to fall below threshold in 5 days</p>
+                            </div>
+                        </div>
+                        <div class="alert alert-danger">
+                            <div class="alert-icon">🚨</div>
+                            <div class="alert-content">
+                                <h4>Critical Stock Alert</h4>
+                                <p>Product P003 demand spike expected - immediate action required</p>
+                            </div>
+                        </div>
+                        <div class="alert alert-success">
+                            <div class="alert-icon">✅</div>
+                            <div class="alert-content">
+                                <h4>Optimization Complete</h4>
+                                <p>Inventory levels optimized based on latest forecasts</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Data Collection Section -->
+            <section id="data-section" class="section" style="display: none;">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Upload Sales Data</h3>
+                        <p class="card-subtitle">Import historical sales data from CSV or Excel files</p>
+                    </div>
+                    <div class="upload-section">
+                        <div class="upload-area" id="upload-area">
+                            <div class="upload-icon">📁</div>
+                            <h3 class="upload-text">Drag & drop your file here</h3>
+                            <p class="upload-hint">or click to browse (CSV, XLS, XLSX)</p>
+                            <input type="file" id="file-input" accept=".csv,.xlsx,.xls" style="display: none;">
+                        </div>
+                        <div id="upload-progress" style="display: none;">
+                            <p style="margin-bottom: 0.5rem;">Uploading...</p>
+                            <div class="progress-container">
+                                <div class="progress-bar" id="progress-bar" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">External Data Sources</h3>
+                        <p class="card-subtitle">Fetch weather and holiday data to enhance forecasts</p>
+                    </div>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <button class="btn btn-primary" onclick="fetchWeatherData()">
+                            <i class="fas fa-cloud-sun"></i>
+                            Fetch Weather Data
+                        </button>
+                        <button class="btn btn-secondary" onclick="fetchHolidayData()">
+                            <i class="fas fa-calendar-alt"></i>
+                            Fetch Holiday Data
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Data Preview</h3>
+                    </div>
+                    <div class="table-container">
+                        <table id="data-preview-table">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Product ID</th>
+                                    <th>Sales</th>
+                                    <th>Demand</th>
+                                    <th>Price</th>
+                                </tr>
+                            </thead>
+                            <tbody id="data-preview-body">
+                                <tr>
+                                    <td colspan="5" style="text-align: center;">No data loaded</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Preprocessing Section -->
+            <section id="preprocessing-section" class="section" style="display: none;">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Data Preprocessing</h3>
+                        <p class="card-subtitle">Clean and prepare data for machine learning</p>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Preprocessing Options:</label>
+                        <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                            <label>
+                                <input type="checkbox" id="handle-missing" checked>
+                                Handle Missing Values
+                            </label>
+                            <label>
+                                <input type="checkbox" id="remove-outliers" checked>
+                                Remove Outliers
+                            </label>
+                            <label>
+                                <input type="checkbox" id="encode-categorical" checked>
+                                Encode Categorical Variables
+                            </label>
+                            <label>
+                                <input type="checkbox" id="scale-features" checked>
+                                Scale Numerical Features
+                            </label>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" onclick="preprocessData()">
+                        <i class="fas fa-magic"></i>
+                        Start Preprocessing
+                    </button>
+                </div>
+
+                <div class="modules-grid">
+                    <div class="module-card">
+                        <div class="module-header">
+                            <div class="module-icon">🧹</div>
+                            <h4 class="module-title">Missing Values</h4>
+                        </div>
+                        <p class="module-description">Identifies and fills missing data using appropriate statistical methods.</p>
+                        <div class="module-status pending" id="missing-status">Pending</div>
+                    </div>
+                    <div class="module-card">
+                        <div class="module-header">
+                            <div class="module-icon">📊</div>
+                            <h4 class="module-title">Outlier Removal</h4>
+                        </div>
+                        <p class="module-description">Detects and caps outliers using IQR method to ensure data quality.</p>
+                        <div class="module-status pending" id="outlier-status">Pending</div>
+                    </div>
+                    <div class="module-card">
+                        <div class="module-header">
+                            <div class="module-icon">🔄</div>
+                            <h4 class="module-title">Feature Encoding</h4>
+                        </div>
+                        <p class="module-description">Converts categorical variables into numerical format for ML models.</p>
+                        <div class="module-status pending" id="encoding-status">Pending</div>
+                    </div>
+                    <div class="module-card">
+                        <div class="module-header">
+                            <div class="module-icon">⚖️</div>
+                            <h4 class="module-title">Feature Scaling</h4>
+                        </div>
+                        <p class="module-description">Normalizes numerical features to ensure consistent scale.</p>
+                        <div class="module-status pending" id="scaling-status">Pending</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Feature Engineering Section -->
+            <section id="features-section" class="section" style="display: none;">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Feature Engineering</h3>
+                        <p class="card-subtitle">Generate predictive features from your data</p>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Feature Types:</label>
+                        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem;">
+                            <label><input type="checkbox" id="create-lags" checked> Lagged Features</label>
+                            <label><input type="checkbox" id="moving-averages" checked> Moving Averages</label>
+                            <label><input type="checkbox" id="date-features" checked> Date Features</label>
+                            <label><input type="checkbox" id="weather-features" checked> Weather Features</label>
+                            <label><input type="checkbox" id="holiday-features" checked> Holiday Features</label>
+                            <label><input type="checkbox" id="trend-features" checked> Trend Features</label>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" onclick="engineerFeatures()">
+                        <i class="fas fa-wand-magic-sparkles"></i>
+                        Generate Features
+                    </button>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Generated Features</h3>
+                    </div>
+                    <div id="features-list" style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                        <span class="badge badge-info">No features generated yet</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Model Training Section -->
+            <section id="models-section" class="section" style="display: none;">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Model Training</h3>
+                        <p class="card-subtitle">Train multiple ML models for demand forecasting</p>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Select Models to Train:</label>
+                        <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                            <label><input type="checkbox" id="rf-model" checked> Random Forest</label>
+                            <label><input type="checkbox" id="gb-model" checked> Gradient Boosting</label>
+                            <label><input type="checkbox" id="lr-model"> Linear Regression</label>
+                            <label><input type="checkbox" id="arima-model"> ARIMA (Time Series)</label>
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Test Size: <span id="test-size-value">20%</span></label>
+                        <input type="range" id="test-size" min="10" max="40" value="20" style="width: 100%;">
+                    </div>
+                    <button class="btn btn-primary" onclick="trainModels()">
+                        <i class="fas fa-graduation-cap"></i>
+                        Train Models
+                    </button>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Training Progress</h3>
+                    </div>
+                    <div id="training-progress">
+                        <p style="text-align: center; color: var(--gray-500);">No training started yet</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Trained Models</h3>
+                    </div>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Model</th>
+                                    <th>Status</th>
+                                    <th>Training Time</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="models-table-body">
+                                <tr>
+                                    <td colspan="4" style="text-align: center;">No models trained yet</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Forecasting Section -->
+            <section id="forecast-section" class="section" style="display: none;">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Generate Forecast</h3>
+                        <p class="card-subtitle">Predict future demand for your products</p>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Select Model:</label>
+                        <select id="forecast-model" style="width: 100%; padding: 0.75rem; border: 1px solid var(--gray-300); border-radius: var(--radius);">
+                            <option value="random_forest">Random Forest</option>
+                            <option value="gradient_boosting">Gradient Boosting</option>
+                            <option value="linear_regression">Linear Regression</option>
+                        </select>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Forecast Horizon: <span id="horizon-value">30 days</span></label>
+                        <input type="range" id="forecast-horizon" min="7" max="90" value="30" style="width: 100%;">
+                    </div>
+                    <button class="btn btn-success" onclick="generateForecast()">
+                        <i class="fas fa-chart-line"></i>
+                        Generate Forecast
+                    </button>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Forecast Results</h3>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="detailedForecastChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Forecast Summary</h3>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">📊</div>
+                            <div class="stat-value" id="forecast-total">0</div>
+                            <div class="stat-label">Total Demand</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">📈</div>
+                            <div class="stat-value" id="forecast-avg">0</div>
+                            <div class="stat-label">Avg Daily</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">🔥</div>
+                            <div class="stat-value" id="forecast-peak">0</div>
+                            <div class="stat-label">Peak Demand</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">📅</div>
+                            <div class="stat-value" id="forecast-peak-date">-</div>
+                            <div class="stat-label">Peak Date</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Evaluation Section -->
+            <section id="evaluation-section" class="section" style="display: none;">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Model Evaluation</h3>
+                        <button class="btn btn-primary" onclick="evaluateModels()">
+                            <i class="fas fa-check-double"></i>
+                            Evaluate All Models
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Performance Metrics</h3>
+                    </div>
+                    <div class="table-container">
+                        <table id="evaluation-table">
+                            <thead>
+                                <tr>
+                                    <th>Model</th>
+                                    <th>MAE</th>
+                                    <th>RMSE</th>
+                                    <th>MAPE</th>
+                                    <th>R² Score</th>
+                                    <th>Accuracy</th>
+                                </tr>
+                            </thead>
+                            <tbody id="evaluation-table-body">
+                                <tr>
+                                    <td colspan="6" style="text-align: center;">No evaluation data available</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Model Comparison</h3>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="comparisonChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Insights Section -->
+            <section id="insights-section" class="section" style="display: none;">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Actionable Insights</h3>
+                        <button class="btn btn-primary" onclick="generateInsights()">
+                            <i class="fas fa-lightbulb"></i>
+                            Generate Insights
+                        </button>
+                    </div>
+                </div>
+
+                <div class="modules-grid">
+                    <div class="module-card">
+                        <div class="module-header">
+                            <div class="module-icon">📊</div>
+                            <h4 class="module-title">ABC Analysis</h4>
+                        </div>
+                        <div id="abc-analysis-content">
+                            <p class="module-description">Categorize products by importance and value.</p>
+                        </div>
+                    </div>
+                    <div class="module-card">
+                        <div class="module-header">
+                            <div class="module-icon">🔄</div>
+                            <h4 class="module-title">Reorder Points</h4>
+                        </div>
+                        <div id="reorder-points-content">
+                            <p class="module-description">Optimal inventory levels for reordering.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Recommendations</h3>
+                    </div>
+                    <div id="recommendations-list" style="display: flex; flex-direction: column; gap: 1rem;">
+                        <p style="text-align: center; color: var(--gray-500);">Generate insights to see recommendations</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Optimization Summary</h3>
+                    </div>
+                    <div id="optimization-summary"></div>
+                </div>
+            </section>
+
+            <!-- Alerts Section -->
+            <section id="alerts-section" class="section" style="display: none;">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Alert Configuration</h3>
+                        <p class="card-subtitle">Set up notifications for inventory alerts</p>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Low Stock Threshold:</label>
+                        <input type="number" id="low-stock-threshold" value="100" style="width: 100%; padding: 0.75rem; border: 1px solid var(--gray-300); border-radius: var(--radius);">
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">Email Notifications:</label>
+                        <div style="display: flex; gap: 0.5rem; align-items: center;">
+                            <input type="checkbox" id="email-enabled">
+                            <input type="email" id="email-address" placeholder="Enter email address" style="flex: 1; padding: 0.75rem; border: 1px solid var(--gray-300); border-radius: var(--radius);">
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; font-weight: 600;">SMS Notifications:</label>
+                        <div style="display: flex; gap: 0.5rem; align-items: center;">
+                            <input type="checkbox" id="sms-enabled">
+                            <input type="tel" id="phone-number" placeholder="Enter phone number" style="flex: 1; padding: 0.75rem; border: 1px solid var(--gray-300); border-radius: var(--radius);">
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" onclick="configureAlerts()">
+                        <i class="fas fa-save"></i>
+                        Save Configuration
+                    </button>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Active Alerts</h3>
+                        <button class="btn btn-secondary" onclick="sendTestAlert()">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Test Alert
+                        </button>
+                    </div>
+                    <div class="alerts-container" id="all-alerts">
+                        <p style="text-align: center; color: var(--gray-500);">No active alerts</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Alert History</h3>
+                    </div>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Type</th>
+                                    <th>Message</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="alert-history-body">
+                                <tr>
+                                    <td colspan="4" style="text-align: center;">No alert history</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background: var(--dark); color: var(--white); padding: 1rem 2rem; text-align: center; position: fixed; bottom: 0; left: 280px; right: 0; z-index: 999; font-size: 0.875rem;">
+        <p>&amp;copy; 2024 InventoryAI. Developed by <strong>Upadhyay Diya Devangbhai</strong> &amp;amp; <strong>Thakar Krisha Mehulkumar</strong> - GLS University</p>
+    </footer>
+
+    <!-- Profile Modal -->
+    <div id="profile-modal" class="modal" style="display: none;">
+        <div class="modal-content" style="max-width: 500px;">
+            <div class="modal-header">
+                <h2>Profile Settings</h2>
+                <button class="close-btn" onclick="closeProfileModal()">&amp;times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="profile-section">
+                    <h3><i class="fas fa-user"></i> Account Information</h3>
+                    <div class="profile-info">
+                        <p><strong>Email:</strong> <span id="profile-email">{{ current_user.email }}</span></p>
+                        <p><strong>Member Since:</strong> <span id="profile-created">{{ current_user.created_at.strftime('%B %d, %Y') if current_user.created_at else 'N/A' }}</span></p>
+                    </div>
+                </div>
+
+                <div class="profile-section">
+                    <h3><i class="fas fa-key"></i> Change Password</h3>
+                    <form id="change-password-form" onsubmit="changePassword(event)">
+                        <div class="form-group">
+                            <label>Current Password</label>
+                            <input type="password" id="current-password" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label>New Password</label>
+                            <input type="password" id="new-password" class="form-control" required minlength="6">
+                        </div>
+                        <div class="form-group">
+                            <label>Confirm New Password</label>
+                            <input type="password" id="confirm-password" class="form-control" required minlength="6">
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-save"></i> Update Password
+                        </button>
+                    </form>
+                </div>
+
+                <div class="profile-section">
+                    <h3><i class="fas fa-sign-out-alt"></i> Account Actions</h3>
+                    <button class="btn btn-danger" onclick="logout()">
+                        <i class="fas fa-sign-out-alt"></i> Logout
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Theme Toggle Widget -->
+    <div id="theme-toggle" class="theme-toggle">
+        <button id="theme-btn" onclick="toggleTheme()" title="Toggle Dark/Light Mode">
+            <i class="fas fa-moon" id="theme-icon"></i>
+        </button>
+    </div>
+
+    <script src="static/js/app.js"></script>
+</body>
+</html>

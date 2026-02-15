@@ -1,0 +1,20 @@
+                <div class="profile-section">
+                    <h3><i class="fas fa-sign-out-alt"></i> Account Actions</h3>
+                    <button class="btn btn-danger" onclick="logout()">
+                        <i class="fas fa-sign-out-alt"></i> Logout
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Theme Toggle Widget -->
+    <div id="theme-toggle" class="theme-toggle">
+        <button id="theme-btn" onclick="toggleTheme()" title="Toggle Dark/Light Mode">
+            <i class="fas fa-moon" id="theme-icon"></i>
+        </button>
+    </div>
+
+    <script src="static/js/app.js"></script>
+</body>
+</html>
