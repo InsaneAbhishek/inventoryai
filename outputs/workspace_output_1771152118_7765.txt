@@ -1,0 +1,25 @@
+total 340
+drwxr-xr-x 11 user user   4096 Feb 15 10:41 .
+drwxr-xr-x 20 root root   4096 Feb 13 18:38 ..
+drwxr-xr-x  4 user user   4096 Feb 15 10:27 .agent_hooks
+-rw-r--r--  1 root root    220 Feb 15 10:41 .env.example
+-rw-r--r--  1 root root    637 Feb 15 10:41 .gitignore
+-rw-r--r--  1 root root    303 Feb 15 10:41 .render.yaml
+-rw-r--r--  1 root root   8673 Feb 15 10:41 DEPLOYMENT_GUIDE.md
+-rw-r--r--  1 root root   3665 Feb 15 10:39 PUBLIC_LINK.md
+-rw-r--r--  1 root root     29 Feb 15 10:41 Procfile
+-rw-r--r--  1 root root   9305 Feb 15 10:27 SETUP_GUIDE.md
+-rw-r--r--  1 root root  65808 Feb 15 10:33 Screenshot 2026-02-15 at 4.01.56 PM.png
+drwxr-xr-x  5 root root   4096 Feb 15 10:28 backend
+drwxr-xr-x  4 root root   4096 Feb 14 21:31 data
+-rw-r--r--  1 root root 100576 Feb 15 09:17 demo_sales_data.xlsx
+drwxr-xr-x  5 root root   4096 Feb 14 21:09 frontend
+drwxr-xr-x  2 root root   4096 Feb 14 21:31 logs
+drwxr-xr-x  2 root root   4096 Feb 15 08:58 models
+drwxr-xr-x  2 root root   4096 Feb 15 10:41 outputs
+drwxr-xr-x  2 root root   4096 Feb 15 10:28 reports
+-rw-r--r--  1 root root    214 Feb 15 10:41 requirements.txt
+-rw-r--r--  1 root root   5367 Feb 15 09:17 sales_data_template.xlsx
+-rw-r--r--  1 root root  65808 Feb 15 10:33 screenshot_latest.png
+drwxr-xr-x  2 root root   4096 Feb 15 10:40 summarized_conversations
+-rw-r--r--  1 root root   1027 Feb 15 10:41 todo.md

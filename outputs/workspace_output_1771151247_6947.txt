@@ -1,0 +1,2 @@
+419:                            <span class="avatar-initials">DK</span>
+437:                            <span class="avatar-initials">KS</span>

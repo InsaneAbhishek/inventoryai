@@ -1,0 +1,50 @@
+function toggleTheme() {
+    const body = document.body;
+    const themeIcon = document.getElementById('theme-icon');
+    
+    if (body.classList.contains('dark-mode')) {
+        // Switch to light mode
+        body.classList.remove('dark-mode');
+        themeIcon.classList.remove('fa-sun');
+        themeIcon.classList.add('fa-moon');
+        localStorage.setItem('theme', 'light');
+        showNotification('success', 'Switched to Light Mode');
+    } else {
+        // Switch to dark mode
+        body.classList.add('dark-mode');
+        themeIcon.classList.remove('fa-moon');
+        themeIcon.classList.add('fa-sun');
+        localStorage.setItem('theme', 'dark');
+        showNotification('success', 'Switched to Dark Mode');
+    }
+}
+
+// Load theme preference on page load
+function loadThemePreference() {
+    const savedTheme = localStorage.getItem('theme');
+    const themeIcon = document.getElementById('theme-icon');
+    
+    if (savedTheme === 'dark') {
+        document.body.classList.add('dark-mode');
+        if (themeIcon) {
+            themeIcon.classList.remove('fa-moon');
+            themeIcon.classList.add('fa-sun');
+        }
+    }
+}
+
+// Close modal when clicking outside
+window.addEventListener('click', function(event) {
+    const modal = document.getElementById('profile-modal');
+    if (event.target === modal) {
+        closeProfileModal();
+    }
+});
+
+// Load theme on page load
+document.addEventListener('DOMContentLoaded', function() {
+    loadThemePreference();
+});
+
+// Log when script loads
+console.log('InventoryAI Dashboard JavaScript loaded successfully');

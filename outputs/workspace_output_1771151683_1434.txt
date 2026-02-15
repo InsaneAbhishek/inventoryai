@@ -1,0 +1,14 @@
+2026-02-15 10:34:47,541 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+ * Serving Flask app 'app'
+ * Debug mode: on
+2026-02-15 10:34:47,557 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.16.15.243:8000
+2026-02-15 10:34:47,557 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-15 10:34:47,558 - werkzeug - INFO -  * Restarting with stat
+2026-02-15 10:34:51,725 - __main__ - INFO - Starting Inventory Demand Forecasting System with MongoDB
+2026-02-15 10:34:51,732 - werkzeug - WARNING -  * Debugger is active!
+2026-02-15 10:34:51,732 - werkzeug - INFO -  * Debugger PIN: 116-143-857
+2026-02-15 10:38:39,569 - werkzeug - INFO - 127.0.0.1 - - [15/Feb/2026 10:38:39] "HEAD / HTTP/1.1" 200 -
+2026-02-15 10:39:01,799 - werkzeug - INFO - 172.16.15.243 - - [15/Feb/2026 10:39:01] "GET / HTTP/1.1" 200 -
